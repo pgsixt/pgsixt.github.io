@@ -34,7 +34,7 @@
 			display:none; 
 			}
 			.  {
-					visibility:hidden;
+			visibility:hidden;
 			}
 			h6 {
 			color:#ffffff;
@@ -119,30 +119,25 @@
 		</style>
 		
 		<img src="https://raw.githubusercontent.com/pgsixt/pgsixt.github.io/master/bg3.jpg" style='display:none'/>
-			<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/cross.jpg?raw=true" style='display:none'/>
-			<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/2mountain.jpg?raw=true" style='display:none'/>
-				<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/3bread.jpg?raw=true" style='display:none'/>
-					<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/von.jpg?raw=true" style='display:none'/>
-						<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/sea.jpg?raw=true" style='display:none'/>
-							<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/write.jpg?raw=true" style='display:none'/>
-						<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/3grateful.jpg?raw=true" style='display:none'/>
-						<img src="https://raw.githubusercontent.com/pgsixt/pgsixt.github.io/master/2ending.jpg" style='display:none'/>
-
-
+		<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/cross.jpg?raw=true" style='display:none'/>
+		<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/2mountain.jpg?raw=true" style='display:none'/>
+		<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/3bread.jpg?raw=true" style='display:none'/>
+		
+		
 		
 		<div class="container-sm  justify-content-center  h-100">   
 			<div class="row d-flex justify-content-center align-items-center " id='main_fr'>
 				<audio  id='aup' src="./20200911_prayer_bgm.mp3" style='display:none' type="audio/mp3"></audio> 
 				
-				
-				<div   id='c1' class='text-center maincard' data-bg="https://github.com/pgsixt/pgsixt.github.io/blob/master/bg3.jpg?raw=true">
+				<!-- https://github.com/pgsixt/pgsixt.github.io/blob/master/bg3.jpg?raw=true -->
+				<div   id='c1' class='text-center maincard' data-bg="./bg3.jpg">
 					
-					<img src="https://github.com/pgsixt/pgsixt.github.io/blob/master/knee2.jpg?raw=true" class="img-fluid" alt="Responsive image" style='width:50%'>
+					<img src="./knee2.jpg" class="img-fluid" alt="Responsive image" style='width:50%'>
 					<hr>
 					<h2><b class='colyel churchname'> </b> 온라인 기도실 </h2>
-					 
+					
 					<hr>
-					 
+					
 					<button type="submit" style="margin:8px; " class="btn btn-warning btn_next btn-block" name="button" id='btn_1'>시작하기</button>
 					
 					
@@ -380,7 +375,7 @@
 				</div>
 				
 				<div  id='c13' class='maincard'>
-									
+					
 					<h4>이 오랜 어둠속 방황이 끝나면, 우리로 하여금<br/>
 						밝은 햇빛 아래로 걷게 하소서.<br/>
 						거짓의 굽은 길이 끝나면, 우리에게<br/>
@@ -503,7 +498,7 @@
 		var nowobj2=1;
 		var delaytime=2;
 		
-	 
+		
 		var oldVal="";
 		var imsiimg="";
 		var nowtime=Date.now();
@@ -515,164 +510,164 @@
 		var check_result="|";
 		var bricknumber=1;
 		function isMobile() {
-		return navigator.userAgent.indexOf('Mobi')> -1;
-	}
-	
-	
-	function getParameterByName(name) {
-    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        results = regex.exec(location.search);
-    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-
-
-	$(document).ready(function(){
-		
-		var churchname = getParameterByName('church');
-		
-		$('.churchname').text(churchname);
-		aup.loop=true;
-		aup.volume=0.35;
-		
-		$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
-		 
-		if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
-		$('#'+start_card).show('slow'); 
-		 
-		if(!isMobile()) {
-			
-			$('#main_fr').addClass('h-100');
-			
-			} else {
-			
-			$('#main_fr').removeClass('align-items-center ');
-			$('#main_fr').css('padding-top','30px')
+			return navigator.userAgent.indexOf('Mobi')> -1;
 		}
-		if(navigator.userAgent.indexOf('KAKAO')>0) {
-			$('#btn_end').prop('href',"kakaoweb://closeBrowser");
-			} else {
-			$('#btn_end').detach();
-			
-			
-		}
-		 
 		
-		$("#btn_end").click(function(){
-			self.opener=self;
-			self.close();
-			window.close();
-			window.open('','_self').close();  
+		
+		function getParameterByName(name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+			results = regex.exec(location.search);
+			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		
+		
+		$(document).ready(function(){
 			
-			$(".maincard:last-child").fadeOut('slow',function() { 
-				document.getElementById('aup').volume=0
+			var churchname = getParameterByName('church');
+			
+			$('.churchname').text(churchname);
+			aup.loop=true;
+			aup.volume=0.35;
+			
+			$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
+			
+			if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
+			$('#'+start_card).show('slow'); 
+			
+			if(!isMobile()) {
+				
+				$('#main_fr').addClass('h-100');
+				
+				} else {
+				
+				$('#main_fr').removeClass('align-items-center ');
+				$('#main_fr').css('padding-top','30px')
+			}
+			if(navigator.userAgent.indexOf('KAKAO')>0) {
+				$('#btn_end').prop('href',"kakaoweb://closeBrowser");
+				} else {
+				$('#btn_end').detach();
+				
+				
+			}
+			
+			
+			$("#btn_end").click(function(){
 				self.opener=self;
 				self.close();
 				window.close();
 				window.open('','_self').close();  
 				
-				if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
-				
-				
-			});
-		});
-		
-		
-		$(".btn_next").click(function(){
-			//show_nav_pagenum();
-			
-			
-			nowobj=$("#c"+($(this).prop('id').split("_")[1]-0+1));
-			nowobj2=$(this).prop('id').split("_")[1]-0+1;
-			
-			kill_media=$(this).data('kill');
-			
-			
-			
-			$("#c"+$(this).prop('id').split("_")[1]).fadeOut('slow',function() { 
-				
-				if(kill_media!==undefined) $(kill_media).detach();
-				
-				
-				
-				if($('.maincard').eq(nowobj2-1).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
-					chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
+				$(".maincard:last-child").fadeOut('slow',function() { 
+					document.getElementById('aup').volume=0
+					self.opener=self;
+					self.close();
+					window.close();
+					window.open('','_self').close();  
 					
-				}
+					if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
+					
+					
+				});
+			});
+			
+			
+			$(".btn_next").click(function(){
+				//show_nav_pagenum();
 				
 				
-				if(nowobj2==3&&!isMobile()) openFullScreenMode();
+				nowobj=$("#c"+($(this).prop('id').split("_")[1]-0+1));
+				nowobj2=$(this).prop('id').split("_")[1]-0+1;
+				
+				kill_media=$(this).data('kill');
 				
 				
 				
-				nowobj.fadeIn('slow',function() {
-				
-					if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
-					/*
-					nowobj.find(". ").each(function (index) {
+				$("#c"+$(this).prop('id').split("_")[1]).fadeOut('slow',function() { 
+					
+					if(kill_media!==undefined) $(kill_media).detach();
+					
+					
+					
+					if($('.maincard').eq(nowobj2-1).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
+						chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
 						
-						if((nowobj2-0)==$(".maincard").length) last_fadeout()
+					}
+					
+					
+					if(nowobj2==3&&!isMobile()) openFullScreenMode();
+					
+					
+					
+					nowobj.fadeIn('slow',function() {
 						
-						
+						if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
+						/*
+							nowobj.find(". ").each(function (index) {
+							
+							if((nowobj2-0)==$(".maincard").length) last_fadeout()
+							
+							
+							});
+						*/
 					});
-					*/
+					
+					
+					
 				});
 				
 				
-				
 			});
 			
 			
+			
+			function chage_background_img(img_name) {
+				
+				$('body').css('background-image',"url('"+img_name+"'");
+				
+				
+				console.log(img_name);
+				
+				
+				
+			}
+			
+			function openFullScreenMode() {
+				var docV = document.documentElement;
+				if (docV.requestFullscreen) 
+				docV.requestFullscreen();
+				else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
+				docV.webkitRequestFullscreen();
+				else if (docV.mozRequestFullScreen) // Firefox
+				docV.mozRequestFullScreen();
+				else if (docV.msRequestFullscreen) // IE or Edge
+				docV.msRequestFullscreen();
+			}
+			
+			
+			
+			function last_fadeout() {
+				delaytime=3;
+				
+				setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
+				
+				
+				setTimeout("aup.pause();"(delaytime+3)*1000);
+				
+				aup.loop=false;
+				
+			}
 		});
-		
-		 
-		
-		function chage_background_img(img_name) {
-			
-		 $('body').css('background-image',"url('"+img_name+"'");
-			
-		 
-			console.log(img_name);
-			
-			
-			
-		}
-		 
-		function openFullScreenMode() {
-			var docV = document.documentElement;
-			if (docV.requestFullscreen) 
-			docV.requestFullscreen();
-			else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
-			docV.webkitRequestFullscreen();
-			else if (docV.mozRequestFullScreen) // Firefox
-			docV.mozRequestFullScreen();
-			else if (docV.msRequestFullscreen) // IE or Edge
-			docV.msRequestFullscreen();
-		}
-		
-		
-		
-		function last_fadeout() {
-			delaytime=3;
-			
-			setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
-			
-			
-			setTimeout("aup.pause();"(delaytime+3)*1000);
-			
-			aup.loop=false;
-			
-		}
-	});
-</script>
-
+	</script>
+	
 </body>
 </html>
 
