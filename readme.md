@@ -1,14 +1,14 @@
 ## 알려드립니다. 
 
-###1. 사용법 안내
+### 1. 사용법 안내
 여기 있는 자료는 각자 자리에서 기도할 수 있도록 돕기 위해 산성교회(서울 http://www.ssch.net ) 미디어부에 제작하였습니다.
 
 주소 뒷부분에 교회이름을 적으시면, 타이틀이 해당 교회 이름으로 뜹니다.
-예) https://pgsixt.github.io/?church=산성교회
-예) https://pgsixt.github.io/?church=반포교회
+- https://pgsixt.github.io/?church=산성교회
+- https://pgsixt.github.io/?church=반포교회
 
 
-###2. 관련 사이트 소개
+### 2. 관련 사이트 소개
 청어람아카데미에서 진행하는 온라인 예배를 참고하여 제작하였습니다. 
 https://worship.ichungeoram.com/
 
@@ -18,7 +18,7 @@ https://slides.com/
 
 직접 코딩을 하실 분들은 reveal.js 를 이용하시면 더욱 보기 좋은 내용을 만드실 수 있습니다.
 
-###3. 기타 사항
+### 3. 기타 사항
 
 예배 자료는  한 주에 한 번씩 업데이트할 예정입니다. (매주 토요일 업데이트 예정)
 
