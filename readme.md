@@ -35,4 +35,9 @@ https://forms.gle/8jSc5B6HHf5B4N5Z9
 - 감사시: 시편30:11-12
 - 피아노 연주: 황은혜, 나같은 죄인 살리신, 내 주되신 주를 참 사랑하고
 
+### 2주차 기도
+- 게시일: 2020. 9. 19(예정)
+- 기도 콘티
+https://docs.google.com/spreadsheets/d/1XIZmy9Qag6xkawdfFnkWW6YmT8diMetwc-Mn6tFsrn0/edit?usp=sharing
 
+- 산성교회 온라인 기도실 (한 주 먼저 게시됩니다.) http://ministry.ssch.net/prayer/room/
