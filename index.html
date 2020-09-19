@@ -626,7 +626,14 @@
 			
 			function chage_background_img(img_name) {
 				
+				if(navigator.userAgent.indexOf('Tri')) {
+				
 				$('body').css('background-image',"url("+img_name+")");
+				
+				} else {
+				$('body').css('background-image',"url('"+img_name+"')");
+				
+				}
 				console.log(img_name);
 				//$('body').css('background-image',"url(./1/sea.jpg)")
 				
