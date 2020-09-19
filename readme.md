@@ -33,11 +33,27 @@ https://forms.gle/8jSc5B6HHf5B4N5Z9
 - 찬양: 누구나 삶의 시작은 작구나 (한웅재 노래), https://www.youtube.com/embed/5kpRRBCO73E
 - 기도문: 디트리히 본 회퍼, "세기의 기도" (이현주 편), 10쪽	
 - 감사시: 시편30:11-12
-- 피아노 연주: 황은혜, 나같은 죄인 살리신, 내 주되신 주를 참 사랑하고
+- 피아노 연주: 황은혜, 곡: 나같은 죄인 살리신, 내 주되신 주를 참 사랑하고
+- 산성교회 온라인 1주차 http://ministry.ssch.net/prayer/room/index0906.html
+
 
 ### 2주차 기도
-- 게시일: 2020. 9. 19(예정)
+- 게시일: 2020. 9. 19
+- 찬양: 거친세상에서 (한웅재 노래), https://www.youtube.com/watch?v=9_LUgozSirA
+- 말씀: 사무엘상 1장 10-11절, 17-18절
+- 기도문: 나지안주스의 그레고리, "세기의 기도" (이현주 편), 68쪽
+- 감사시: 시편61:5
+- 피아노 연주: 황은혜 곡: 너 예수께 조용히 나가, 거룩하신 하나님 주께 감사드리세
 - 기도 콘티
 https://docs.google.com/spreadsheets/d/1XIZmy9Qag6xkawdfFnkWW6YmT8diMetwc-Mn6tFsrn0/edit?usp=sharing
+- 산성교회 온라인 2주차 http://ministry.ssch.net/prayer/room/index0912.html
+
+
+### 3주차 기도
+- 게시일: 2020. 9. 26(예정)
+- 기도 콘티
+https://docs.google.com/spreadsheets/d/1XIZmy9Qag6xkawdfFnkWW6YmT8diMetwc-Mn6tFsrn0/edit?usp=sharing (3주차콘티)
+- 산성교회 온라인 3주차 http://ministry.ssch.net/prayer/room/index0920.html
+
 
 - 산성교회 온라인 기도실 (한 주 먼저 게시됩니다.) http://ministry.ssch.net/prayer/room/
