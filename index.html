@@ -535,7 +535,7 @@
 			$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
 			
 			if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
-			$('#'+start_card).show('slow'); 
+			$('#'+start_card).show(2000); 
 			
 			if(!isMobile()) {
 				
@@ -561,7 +561,7 @@
 				window.close();
 				window.open('','_self').close();  
 				
-				$(".maincard:last-child").fadeOut('slow',function() { 
+				$(".maincard:last-child").fadeOut(2000,function() { 
 					document.getElementById('aup').volume=0
 					self.opener=self;
 					self.close();
@@ -586,7 +586,7 @@
 				
 				
 				
-				$("#c"+$(this).prop('id').split("_")[1]).fadeOut('slow',function() { 
+				$("#c"+$(this).prop('id').split("_")[1]).fadeOut(2000,function() { 
 					
 					if(kill_media!==undefined) $(kill_media).detach();
 					
@@ -602,7 +602,7 @@
 					
 					
 					
-					nowobj.fadeIn('slow',function() {
+					nowobj.fadeIn(2000,function() {
 						
 						if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
 						/*
