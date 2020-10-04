@@ -28,6 +28,9 @@ https://slides.com/
 
 https://forms.gle/8jSc5B6HHf5B4N5Z9
 
+기도 콘티 
+https://docs.google.com/spreadsheets/d/1XIZmy9Qag6xkawdfFnkWW6YmT8diMetwc-Mn6tFsrn0/edit?usp=sharing
+
 ### 1주차 기도  
 - 게시일: 2020.9.11
 - 찬양: 누구나 삶의 시작은 작구나 (한웅재 노래), https://www.youtube.com/embed/5kpRRBCO73E
@@ -40,20 +43,36 @@ https://forms.gle/8jSc5B6HHf5B4N5Z9
 ### 2주차 기도
 - 게시일: 2020. 9. 19
 - 찬양: 거친세상에서 (한웅재 노래), https://www.youtube.com/watch?v=9_LUgozSirA
-- 말씀: 사무엘상 1장 10-11절, 17-18절
+- 말씀: 사무엘상 1장 10-11절, 17-18절 (한나의 기도)
 - 기도문: 나지안주스의 그레고리, "세기의 기도" (이현주 편), 68쪽
 - 감사시: 시편61:5
 - 피아노 연주: 황은혜 곡: 너 예수께 조용히 나가, 거룩하신 하나님 주께 감사드리세
-- 기도 콘티
-https://docs.google.com/spreadsheets/d/1XIZmy9Qag6xkawdfFnkWW6YmT8diMetwc-Mn6tFsrn0/edit?usp=sharing
 - 산성교회 온라인 2주차 http://ministry.ssch.net/prayer/room/index0912.html
 
 
 ### 3주차 기도
-- 게시일: 2020. 9. 26(예정)
-- 기도 콘티
-https://docs.google.com/spreadsheets/d/1XIZmy9Qag6xkawdfFnkWW6YmT8diMetwc-Mn6tFsrn0/edit?usp=sharing (3주차콘티)
+- 게시일: 2020. 9. 26
+- 찬양: 어머니 그 노래, (유연이 노래) https://youtu.be/N1Y_jjrili8
+- 말씀:역대상 4장 9-10절 (야베스의 기도)
+- 기도문: 모다니아의 형제, "사막 교부들의 금언집" (남성현 역), 316쪽
+- 감사시: 시편107편 8-9절
 - 산성교회 온라인 3주차 http://ministry.ssch.net/prayer/room/index0920.html
 
+### 4주차 기도 (현재)
+- 게시일: 2020. 10. 4
+- 찬양: 내맘의 주여 소망되소서, (노래 한웅재) https://youtu.be/tW4OsnYD95U
+- 말씀:역대상 17장 20절, 25-27절 (다윗의 기도)
+- 기도문:무명의 원로, "사막 교부들의 금언집" (남성현 역), 257쪽
+- 감사시: 시편16편 2절
+- 산성교회 온라인 4주차 http://ministry.ssch.net/prayer/room/index0926.html
 
-- 산성교회 온라인 기도실 (한 주 먼저 게시됩니다.) http://ministry.ssch.net/prayer/room/
+### 5주차 기도 (예정)
+- 게시일: 2020. 10.10
+- 찬양: 주의 임재 앞에 잠잠해 (노래 Faith Worship) https://youtu.be/odEFLiAw3nM
+- 말씀: 역대하 6장 19절-21절 (솔로몬의 기도)
+- 기도문: 토마스 아 캠피스, "그리스도를 본받아"
+- 감사시: 시편 18편 6절
+
+### 산성교회 온라인 기도실
+(한 주 먼저 게시됩니다.) http://ministry.ssch.net/prayer/room/
+
