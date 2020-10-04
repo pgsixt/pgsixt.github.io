@@ -19,9 +19,7 @@ https://worship.ichungeoram.com/
 - 말씀: 김응신 목사님 주일 설교 시리즈 http://www.ssch.net/index.php?mid=board_kTTq23&category=25897
 - 음악: 마스터 믹싱 박경선 전도사 https://www.youtube.com/user/SunnyPark7045/channels
 
-
-
-
+ 
 ### 4. 기타 사항
 
 예배 자료는  한 주에 한 번씩 업데이트할 예정입니다. (매주 토요일 업데이트 예정)
@@ -29,6 +27,9 @@ https://worship.ichungeoram.com/
 문의사항은 아래 폼으로 남겨 주시면 답변드립니다. 
 https://forms.gle/8jSc5B6HHf5B4N5Z9
 
+===
+## 주차별 내용
+---
 ### 1주차 기도  
 - 주소: https://pgsixt.github.io/1
 - 게시일: 2020.9.11
