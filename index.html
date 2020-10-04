@@ -535,143 +535,346 @@
 		String.prototype.replaceAll = function(org, dest) {
 		return this.split(org).join(dest);
 		}
-		
+		function getParameterByName(name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+			results = regex.exec(location.search);
+			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
 		
 		$(document).ready(function(){
-		
+			
 			
 			var churchname = getParameterByName('church');
 			
 			$('.churchname').text(churchname);
 			
-		aup.loop=true;
-		aup.volume=0.35;
-		
-		$('.maincard').css('display','none');
-		$('.maincard').eq(0).show('slow');
-		//$('h4').eq(0).html($('h4').eq(0).html().replaceAll("[","[").replaceAll("]","</b>"))
-		
-		
-		
-		
-		
-		for(var i=0;i<$('h2').length;i++) { $('h2').eq(i).html($('h2').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }
-		for(var i=0;i<$('h3').length;i++) { $('h3').eq(i).html($('h3').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }    
-		for(var i=0;i<$('h4').length;i++) { $('h4').eq(i).html($('h4').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
-		for(var i=0;i<$('h5').length;i++) { $('h5').eq(i).html($('h5').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
-		
-		
-		for(var i=0;i<$('.maincard').length;i++) { $('.maincard').eq(i).html($('.maincard').eq(i).html().replaceAll("===","<hr>").replaceAll("---","<hr class='sm'>")); }		
-		
-		
-		
-		
-		//$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
-		/*
-		if(document.location.href.includes("?all")) { // ---------------------------- 모두보기일때 
-		
-		
-		$('.maincard').each(function(index,item) {
-		
-		
-		$(this).prepend("<h3><a href='./?page="+(index+1)+"' class='btn btn-block btn-sm btn-info'>"+(index+1)+"페이지</a> </h3>"); 
-		
-		
-		//$(this).find("h2").html()
-		if($(item).data('bg')!==undefined) imsiimg=$(item).data('bg');
-		
-		$(item).css('background-image'," url('../"+imsiimg+".jpg')");
+			aup.loop=true;
+			aup.volume=0.35;
+			
+			$('.maincard').css('display','none');
+			$('.maincard').eq(0).show('slow');
+			//$('h4').eq(0).html($('h4').eq(0).html().replaceAll("[","[").replaceAll("]","</b>"))
+			
+			
+			
+			
+			
+			for(var i=0;i<$('h2').length;i++) { $('h2').eq(i).html($('h2').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }
+			for(var i=0;i<$('h3').length;i++) { $('h3').eq(i).html($('h3').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }    
+			for(var i=0;i<$('h4').length;i++) { $('h4').eq(i).html($('h4').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
+			for(var i=0;i<$('h5').length;i++) { $('h5').eq(i).html($('h5').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
+			
+			
+			for(var i=0;i<$('.maincard').length;i++) { $('.maincard').eq(i).html($('.maincard').eq(i).html().replaceAll("===","<hr>").replaceAll("---","<hr class='sm'>")); }		
+			
+			
+			
+			
+			//$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
+			/*
+				if(document.location.href.includes("?all")) { // ---------------------------- 모두보기일때 
+				
+				
+				$('.maincard').each(function(index,item) {
+				
+				
+				$(this).prepend("<h3><a href='./?page="+(index+1)+"' class='btn btn-block btn-sm btn-info'>"+(index+1)+"페이지</a> </h3>"); 
+				
+				
+				//$(this).find("h2").html()
+				if($(item).data('bg')!==undefined) imsiimg=$(item).data('bg');
+				
+				$(item).css('background-image'," url('../"+imsiimg+".jpg')");
+				});
+				$('.maincard').css("background-size","cover");
+				$('.maincard').css("background-position","center center");
+				$('.maincard').css("background-repeat","no-repeat");
+				$('.maincard').css('margin-bottom','20px');
+				$('body').css("background-image","none");
+				
+				$('body').css("background-color","#ff0000");
+				
+				} //----------------------------------------------------------------------------
+			*/
+			//start
+			
+			if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
+			$('#'+start_card).show('slow'); 
+			$('#'+start_card).find(".byline").each(function (index) {
+				
+				
+				setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
+				
+				/*if (navigator.userAgent.indexOf('Tri') >0) { 
+					
+					$(this).removeClass('byline').show();
+					
+					} else {
+					
+					setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
+					}
+				*/
+			});
+			
+			
+			/*추가된 부분: 종료되면 처음부터 다시 재생*/
+			/*
+				aup.addEventListener('ended', function() { 
+				this.currentTime = 0;
+				this.play();
+				console.log('replay');
+				}, false);
+			*/
+			if(!isMobile()) {
+				
+				
+				//	$('#btn_1').html("<b>엔터키</b>나 <b>스페이스키</b>를 누르시면 다음으로 넘어갑니다.");  
+				$('#main_fr').addClass('h-100');
+				//$('#main_fr').css('padding-top','180px')
+				//$('#main_fr').removeClass('align-items-center ');
+				} else {
+				
+				$('#main_fr').removeClass('align-items-center ');
+				$('#main_fr').css('padding-top','30px')
+			}
+			if(navigator.userAgent.indexOf('KAKAO')>0) {
+				$('#btn_end').prop('href',"kakaoweb://closeBrowser");
+				} else {
+				$('#btn_end').detach();
+				
+				
+			}
+			
+			
+			$(document).keyup(function(event){
+				var keycode = (event.keyCode ? event.keyCode : event.which);
+				if(keycode == '13' ||keycode == '32') { 
+					
+					//if((document.activeElement+"").indexOf("ip") !== -1) {
+					
+					var nowfocusid=$(':focus').prop('id');
+					if(nowfocusid=='ip_confess') return;
+					if(nowfocusid=='ip_name') return;
+					if(nowfocusid=='ip_phone') return;
+					
+					$('#c'+nowobj2+'>button').click();
+					
+				}
+				
+			});
+			
+			
+			function show_nav_pagenum() {
+				
+				$('#p_nav').text((nowobj2-0)+1);
+			}
+			
+			$(".sendbtn").click(function(){
+				
+				if($('#ip_confess').val()!=="") {
+					
+					
+					$.ajax({
+						url: "//ministry.ssch.net/prayer/dataqr.php?indata="+encodeURI($('#ip_confess').val())+encodeURI("|온라인기도실"),
+						dataType: 'jsonp',
+						type:"GET",
+						success: function(data) {
+							
+							
+						}
+					});	
+					
+					
+					
+				}
+				
+			});
+			
+			$("#btn_brick").click(function(){
+				
+				validation_by_server();
+				
+			});
+			
+			
+			$("#btn_end").click(function(){
+				self.opener=self;
+				self.close();
+				window.close();
+				window.open('','_self').close();  
+				
+				$(".maincard:last-child").fadeOut('slow',function() { 
+					document.getElementById('aup').volume=0
+					self.opener=self;
+					self.close();
+					window.close();
+					window.open('','_self').close();  
+					
+					if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
+					// alert(navigator.userAgent);
+					
+				});
+			});
+			
+			
+			$(".btn_next").click(function(){
+				show_nav_pagenum();
+				
+				
+				nowobj=$("#c"+($(this).prop('id').split("_")[1]-0+1));
+				nowobj2=$(this).prop('id').split("_")[1]-0+1;
+				
+				kill_media=$(this).data('kill');
+				
+				
+				
+				$("#c"+$(this).prop('id').split("_")[1]).fadeOut(1200,function() { 
+					
+					if(kill_media!==undefined) $(kill_media).detach();
+					
+					
+					
+					if($('.maincard').eq(nowobj2-1).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
+						chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
+						
+					}
+					
+					
+					if(nowobj2==3) openFullScreenMode();
+					
+					
+					
+					nowobj.fadeIn(1200,function() {
+						$("#c"+nowobj2+">input[type='text']").eq(0).focus();
+						if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
+						
+						nowobj.find(".byline").each(function (index) {
+							
+							if (navigator.userAgent.indexOf('Tri') >0) { 
+								
+								$(this).removeClass('byline');
+								
+								} else {
+								
+								//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
+								setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
+								
+							}
+							
+						});
+						//	setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); })
+						
+						if((nowobj2-0)==$(".maincard").length) last_fadeout();
+						
+						
+					});
+				});
+				
+				
+				
+			});
+			
+			
 		});
-		$('.maincard').css("background-size","cover");
-		$('.maincard').css("background-position","center center");
-		$('.maincard').css("background-repeat","no-repeat");
-		$('.maincard').css('margin-bottom','20px');
-		$('body').css("background-image","none");
-		
-		$('body').css("background-color","#ff0000");
-		
-		} //----------------------------------------------------------------------------
-		*/
-		//start
-		
-		if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
-		$('#'+start_card).show('slow'); 
-		$('#'+start_card).find(".byline").each(function (index) {
-		
-		
-		setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-		
-		/*if (navigator.userAgent.indexOf('Tri') >0) { 
-		
-		$(this).removeClass('byline').show();
-		
-		} else {
-		
-		setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-		}
-		*/
-		});
-		
-		
-		/*추가된 부분: 종료되면 처음부터 다시 재생*/
-		/*
-		aup.addEventListener('ended', function() { 
-		this.currentTime = 0;
-		this.play();
-		console.log('replay');
-		}, false);
-		*/
-		if(!isMobile()) {
-		
-		
-		//	$('#btn_1').html("<b>엔터키</b>나 <b>스페이스키</b>를 누르시면 다음으로 넘어갑니다.");  
-		$('#main_fr').addClass('h-100');
-		//$('#main_fr').css('padding-top','180px')
-		//$('#main_fr').removeClass('align-items-center ');
-		} else {
-		
-		$('#main_fr').removeClass('align-items-center ');
-		$('#main_fr').css('padding-top','30px')
-		}
-		if(navigator.userAgent.indexOf('KAKAO')>0) {
-		$('#btn_end').prop('href',"kakaoweb://closeBrowser");
-		} else {
-		$('#btn_end').detach();
-		
-		
-	}
-	
-	
-	$(document).keyup(function(event){
-		var keycode = (event.keyCode ? event.keyCode : event.which);
-		if(keycode == '13' ||keycode == '32') { 
+		function validation_by_server() {
+			$('#ip_name').val($('#ip_name').val().replaceAll(" ",""));
 			
-			//if((document.activeElement+"").indexOf("ip") !== -1) {
+			if($('#ip_phone').val().length>0&&$('#ip_phone').val().length<4) return;
 			
-			var nowfocusid=$(':focus').prop('id');
-			if(nowfocusid=='ip_confess') return;
-			if(nowfocusid=='ip_name') return;
-			if(nowfocusid=='ip_phone') return;
 			
-			$('#c'+nowobj2+'>button').click();
+			if($('#ip_name').val()==""&&$('#ip_phone').val()=="") {
+				
+				$("#c16").fadeOut('slow',function() { 
+					chage_background_img($('.maincard').eq(16).data('bg')) ;
+					
+					$("#c17").fadeIn('slow',function() {
+						
+						
+						
+						
+						}).find(".byline").each(function (index) {
+						
+						if (navigator.userAgent.indexOf('Tri') >0) { 
+							$(this).removeClass('byline');
+							} else {
+							
+							//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
+							setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
+							
+						}
+					});
+					
+				});
+				
+				return;
+			}
 			
-		}
-		
-	});
-	
-	
-	function show_nav_pagenum() {
-		
-		$('#p_nav').text((nowobj2-0)+1);
-	}
-	
-	$(".sendbtn").click(function(){
-		
-		if($('#ip_confess').val()!=="") {
+			
+			if($('#ip_name').val()!==""&&$('#ip_phone').val()=="") {
+				
+				$('#alert_phone').show('slow');
+				setTimeout("$('#alert_phone').hide('slow')",5000);
+				return;
+				
+			}
+			
 			
 			
 			$.ajax({
-				url: "//ministry.ssch.net/prayer/dataqr.php?indata="+encodeURI($('#ip_confess').val())+encodeURI("|온라인기도실"),
+				url: "//ministry.ssch.net/prayer/check.php?indata="+encodeURI($('#ip_name').val().replaceAll(" ","")+$('#ip_phone').val().replaceAll(" ","")),
+				dataType: 'json',
+				type:"GET",
+				success: function(data) {
+					if(data.r=="y") {
+						
+						
+						check_result="|";   //성공하면
+						
+						} else {
+						check_result="|타교인 또는 전화번호 오류";   //성공하면
+						
+					}
+					send_data();
+					
+					
+					$("#c16").fadeOut('slow',function() { 
+						chage_background_img($('.maincard').eq(16).data('bg')) ;
+						
+						$("#c17").fadeIn('slow',function() {
+							
+							nowobj2=17;
+							
+							}).find(".byline").each(function (index) {
+							//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
+							if (navigator.userAgent.indexOf('Tri') >0) { 
+								$(this).removeClass('byline');
+								} else {
+								
+								//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
+								setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
+							}
+							
+						}); 
+						
+					});
+					
+					
+				}}); 
+				
+		}
+		
+		
+		
+		
+		function send_data() {
+			bricknumber=1;
+			
+			if($('#ip_name').val().trim()=="") bricknumber=0;
+			
+			
+			$.ajax({
+				url: "//ministry.ssch.net/prayer/dataqr_db.php?oneline_ori="+encodeURI($('#ip_confess').val())+"&bricknum="+bricknumber+"&pname="+encodeURI($('#ip_name').val().replaceAll(" ",""))+"&pnum="+$('#ip_phone').val().replaceAll(" ","")+"&notice="+encodeURI(check_result),
 				dataType: 'jsonp',
 				type:"GET",
 				success: function(data) {
@@ -684,266 +887,68 @@
 			
 		}
 		
-	});
-	
-	$("#btn_brick").click(function(){
 		
-		validation_by_server();
-		
-	});
-	
-	
-	$("#btn_end").click(function(){
-		self.opener=self;
-		self.close();
-		window.close();
-		window.open('','_self').close();  
-		
-		$(".maincard:last-child").fadeOut('slow',function() { 
-			document.getElementById('aup').volume=0
-			self.opener=self;
-			self.close();
-			window.close();
-			window.open('','_self').close();  
+		function chage_background_img(img_name) {
 			
-			if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
-			// alert(navigator.userAgent);
-			
-		});
-	});
-	
-	
-	$(".btn_next").click(function(){
-		show_nav_pagenum();
-		
-		
-		nowobj=$("#c"+($(this).prop('id').split("_")[1]-0+1));
-		nowobj2=$(this).prop('id').split("_")[1]-0+1;
-		
-		kill_media=$(this).data('kill');
-		
-		
-		
-		$("#c"+$(this).prop('id').split("_")[1]).fadeOut(1200,function() { 
-			
-			if(kill_media!==undefined) $(kill_media).detach();
-			
-			
-			
-			if($('.maincard').eq(nowobj2-1).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
-				chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
+			if(navigator.userAgent.indexOf('Tri')) {
 				
-			}
-			
-			
-			if(nowobj2==3) openFullScreenMode();
-			
-			
-			
-			nowobj.fadeIn(1200,function() {
-				$("#c"+nowobj2+">input[type='text']").eq(0).focus();
-				if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
-				
-				nowobj.find(".byline").each(function (index) {
-					
-					if (navigator.userAgent.indexOf('Tri') >0) { 
-						
-						$(this).removeClass('byline');
-						
-						} else {
-						
-						//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-						setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-						
-					}
-					
-				});
-				//	setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); })
-				
-				if((nowobj2-0)==$(".maincard").length) last_fadeout();
-				
-				
-			});
-		});
-		
-		
-		
-	});
-	
-	
-});
-function validation_by_server() {
-	$('#ip_name').val($('#ip_name').val().replaceAll(" ",""));
-	
-	if($('#ip_phone').val().length>0&&$('#ip_phone').val().length<4) return;
-	
-	
-	if($('#ip_name').val()==""&&$('#ip_phone').val()=="") {
-		
-		$("#c16").fadeOut('slow',function() { 
-			chage_background_img($('.maincard').eq(16).data('bg')) ;
-			
-			$("#c17").fadeIn('slow',function() {
-				
-				
-				
-				
-				}).find(".byline").each(function (index) {
-				
-				if (navigator.userAgent.indexOf('Tri') >0) { 
-					$(this).removeClass('byline');
-					} else {
-					
-					//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
-					setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-					
-				}
-			});
-			
-		});
-		
-		return;
-	}
-	
-	
-	if($('#ip_name').val()!==""&&$('#ip_phone').val()=="") {
-		
-		$('#alert_phone').show('slow');
-		setTimeout("$('#alert_phone').hide('slow')",5000);
-		return;
-		
-	}
-	
-	
-	
-	$.ajax({
-		url: "//ministry.ssch.net/prayer/check.php?indata="+encodeURI($('#ip_name').val().replaceAll(" ","")+$('#ip_phone').val().replaceAll(" ","")),
-		dataType: 'json',
-		type:"GET",
-		success: function(data) {
-			if(data.r=="y") {
-				
-				
-				check_result="|";   //성공하면
+				$('body').css('background-image',"url("+img_name+")");
 				
 				} else {
-				check_result="|타교인 또는 전화번호 오류";   //성공하면
+				$('body').css('background-image',"url('"+img_name+"')");
 				
 			}
-			send_data();
 			
 			
-			$("#c16").fadeOut('slow',function() { 
-				chage_background_img($('.maincard').eq(16).data('bg')) ;
-				
-				$("#c17").fadeIn('slow',function() {
-					
-					nowobj2=17;
-					
-					}).find(".byline").each(function (index) {
-					//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-					if (navigator.userAgent.indexOf('Tri') >0) { 
-						$(this).removeClass('byline');
-						} else {
-						
-						//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
-						setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-					}
-					
-				}); 
-				
-			});
-			
-			
-		}}); 
-		
-}
-
-
-
-
-function send_data() {
-	bricknumber=1;
-	
-	if($('#ip_name').val().trim()=="") bricknumber=0;
-	
-	
-	$.ajax({
-		url: "//ministry.ssch.net/prayer/dataqr_db.php?oneline_ori="+encodeURI($('#ip_confess').val())+"&bricknum="+bricknumber+"&pname="+encodeURI($('#ip_name').val().replaceAll(" ",""))+"&pnum="+$('#ip_phone').val().replaceAll(" ","")+"&notice="+encodeURI(check_result),
-		dataType: 'jsonp',
-		type:"GET",
-		success: function(data) {
 			
 			
 		}
-	});	
-	
-	
-	
-}
-
-
-function chage_background_img(img_name) {
-	
-	if(navigator.userAgent.indexOf('Tri')) {
 		
-		$('body').css('background-image',"url("+img_name+")");
 		
-		} else {
-		$('body').css('background-image',"url('"+img_name+"')");
 		
-	}
+		// 전체화면 설정
+		function openFullScreenMode() {
+			var docV = document.documentElement;
+			if (docV.requestFullscreen) 
+			docV.requestFullscreen();
+			else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
+			docV.webkitRequestFullscreen();
+			else if (docV.mozRequestFullScreen) // Firefox
+			docV.mozRequestFullScreen();
+			else if (docV.msRequestFullscreen) // IE or Edge
+			docV.msRequestFullscreen();
+		}
+		
+		// 전체화면 해제
+		function closeFullScreenMode() {
+			
+		}
+		
+		function last_fadeout() {
+			delaytime=15;
+			
+			setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
+			setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
+			setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
+			setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
+			setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
+			setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
+			setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
+			setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
+			
+			setTimeout("aup.pause();"(delaytime+3)*1000);
+			
+			aup.loop=false;
+			
+			setTimeout("location.href = 'http://ssch.net'",(delaytime+15)*1000);
+			setTimeout("aup.pause();"(delaytime+3)*1000);
+			
+			
+		}
+		
+		
+	</script>
 	
-	
-	
-	
-}
-
-
-
-// 전체화면 설정
-function openFullScreenMode() {
-	var docV = document.documentElement;
-	if (docV.requestFullscreen) 
-	docV.requestFullscreen();
-	else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
-	docV.webkitRequestFullscreen();
-	else if (docV.mozRequestFullScreen) // Firefox
-	docV.mozRequestFullScreen();
-	else if (docV.msRequestFullscreen) // IE or Edge
-	docV.msRequestFullscreen();
-}
-
-// 전체화면 해제
-function closeFullScreenMode() {
-	
-}
-
-function last_fadeout() {
-	delaytime=15;
-	
-	setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
-	
-	setTimeout("aup.pause();"(delaytime+3)*1000);
-	
-	aup.loop=false;
-	
-	setTimeout("location.href = 'http://ssch.net'",(delaytime+15)*1000);
-	setTimeout("aup.pause();"(delaytime+3)*1000);
-	
-	
-}
-
-
-</script>
-
 </body>
 </html>
 
