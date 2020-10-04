@@ -27,9 +27,9 @@ https://worship.ichungeoram.com/
 문의사항은 아래 폼으로 남겨 주시면 답변드립니다. 
 https://forms.gle/8jSc5B6HHf5B4N5Z9
 
-===
+
 ## 주차별 내용
----
+
 ### 1주차 기도  
 - 주소: https://pgsixt.github.io/1
 - 게시일: 2020.9.11
