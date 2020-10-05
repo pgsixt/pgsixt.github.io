@@ -31,6 +31,7 @@ https://forms.gle/8jSc5B6HHf5B4N5Z9
 ## 주차별 내용
 
 ### 1주차 기도  
+![1주차](https://pgsixt.github.io/1/01.png)
 - 주소: https://pgsixt.github.io/1
 - 게시일: 2020.9.11
 - 찬양: 누구나 삶의 시작은 작구나 (한웅재 노래), https://www.youtube.com/embed/5kpRRBCO73E
@@ -38,9 +39,10 @@ https://forms.gle/8jSc5B6HHf5B4N5Z9
 - 감사시: 시편30:11-12
 - 피아노 연주: 황은혜, 곡: 나같은 죄인 살리신, 내 주되신 주를 참 사랑하고
 - 산성교회 온라인 1주차 http://ministry.ssch.net/prayer/room/index0906.html
-https://pgsixt.github.io/1/01.png
+
 
 ### 2주차 기도
+![2주차](https://pgsixt.github.io/2/02.png)
 - 주소: https://pgsixt.github.io/2
 - 게시일: 2020. 9. 19
 - 찬양: 거친세상에서 (한웅재 노래), https://www.youtube.com/watch?v=9_LUgozSirA
@@ -52,6 +54,7 @@ https://pgsixt.github.io/1/01.png
 
 
 ### 3주차 기도
+![3주차](https://pgsixt.github.io/3/03.png)
 - 주소: https://pgsixt.github.io/3
 - 게시일: 2020. 9. 26
 - 찬양: 어머니 그 노래, (유연이 노래) https://youtu.be/N1Y_jjrili8
@@ -62,6 +65,7 @@ https://pgsixt.github.io/1/01.png
 - 배경음악: 마스터믹싱 박경선 전도사 , 메인건반 김은혜, 세컨 김승범, 녹음 이민규
 
 ### 4주차 기도 (현재)
+![4주차](https://pgsixt.github.io/04.png)
 - 게시일: 2020. 10. 4
 - 찬양: 내맘의 주여 소망되소서, (노래 한웅재) https://youtu.be/tW4OsnYD95U
 - 말씀:역대상 17장 20절, 25-27절 (다윗의 기도)
