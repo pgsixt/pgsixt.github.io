@@ -38,7 +38,7 @@ https://forms.gle/8jSc5B6HHf5B4N5Z9
 - 감사시: 시편30:11-12
 - 피아노 연주: 황은혜, 곡: 나같은 죄인 살리신, 내 주되신 주를 참 사랑하고
 - 산성교회 온라인 1주차 http://ministry.ssch.net/prayer/room/index0906.html
-
+https://pgsixt.github.io/1/01.png
 
 ### 2주차 기도
 - 주소: https://pgsixt.github.io/2
