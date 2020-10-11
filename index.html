@@ -8,7 +8,7 @@
 		<meta name="generator" content="온라인 기도실">
 		<meta property="og:url" content="https://pgsixt.github.io/" /> 
 		<meta property="og:type" content="website" /> 
-		<meta property="og:image" content="./04.png" />
+		<meta property="og:image" content="./05.png" />
 		<meta property="og:title" content="온라인 기도실" />  
 		<meta property="og:description" content="어디에나 계신 주님과 지금 여기에" />
 		
@@ -112,7 +112,7 @@
 				
 			</style>
 			
-		</style>
+		</style> 
 		
 		
 		
@@ -124,7 +124,7 @@
 				
 				
 				
-				<div class='maincard' id='c1'  data-bg='http://ministry.ssch.net/prayer/bg3.jpg'>
+				<div class='maincard' id='c1'  data-bg='./bg3.jpg'>
 					<div class='text-center'><img src='./knee2.jpg'class='img-fluid ' alt='Responsive image' style='width:50%'/></div>
 					
 					<hr>
@@ -267,7 +267,7 @@
 					<h4>신앙의 <b class='colyel'>결단</b>이 있었던 곳, 주님과 만났던 곳이 있습니다.
 					</h4>
 					<br/>
-					<h4>주님께서 이름을 두신 곳, 바로 우리의 성전, 산성교회가 있습니다.
+					<h4>주님께서 이름을 두신 곳, 바로 우리의 성전, <b class='colyel churchname'>우리교회</b>가 있습니다.
 					</h4>
 					<br/>
 					<h4>성전이 온전히 <b class='colyel'>회복</b>되어 온 성도들이 함께 예배드리게 되길 기도합시다.
@@ -516,7 +516,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c15'  data-bg='http://ministry.ssch.net/prayer/write.jpg'>
+				<div class='maincard' id='c15'  data-bg='./write.jpg'>
 					<h2><b class='colyel'>한 줄 기도문</b>, <sub>마음과 생각을 분별하며</sub>
 					</h2>
 					
@@ -655,7 +655,8 @@
 			
 			var churchname = getParameterByName('church');
 			
-			$('.churchname').text(churchname);
+			if(churchname!=="") $('.churchname').text(churchname);
+			
 			
 			aup.loop=true;
 			aup.volume=0.35;
