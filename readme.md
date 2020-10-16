@@ -14,18 +14,15 @@
 
 - 형식 https://pgsixt.github.io/?church=교회이름&prayer=기도제목
 
-예) 교회 이름 : 한인교회, 기도제목: 영주권을 놓고 어려움을 겪는 이들을 위해 기도합시다 (
+예) 교회 이름 : 한인교회, 기도제목: 영주권을 놓고 어려움을 겪는 이들을 위해 기도합시다
 
--주소 https://pgsixt.github.io/?church=한인교회&prayer=미국&prayer=영주권을 놓고 어려움을 겪는 이들을 위해 기도합시다 
+기도제목의 빈칸은 _ 밑줄로 처리하셔야 합니다.
 
-![주소창입력](https://pgsixt.github.io/notice/juso.png)
+기도제목: 영주권을_놓고_어려움을_겪는_이들을_위해_기도합시다
 
-위와 같이 입력하고 엔터를 치면 빈칸이 %20 으로 바뀌면서 아래의 주소가 됩니다.
+-주소 https://pgsixt.github.io/?church=한인교회&prayer=미국영주권을_놓고_어려움을_겪는_이들을_위해_기도합시다
 
-![주소창입력](https://pgsixt.github.io/notice/juso2.png)
-또는 https://pgsixt.github.io/?church=%ED%95%9C%EC%9D%B8%EA%B5%90%ED%9A%8C&prayer=%EB%AF%B8%EA%B5%AD&prayer=%EC%98%81%EC%A3%BC%EA%B6%8C%EC%9D%84%20%EB%86%93%EA%B3%A0%20%EC%96%B4%EB%A0%A4%EC%9B%80%EC%9D%84%20%EA%B2%AA%EB%8A%94%20%EC%9D%B4%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%B4%20%EA%B8%B0%EB%8F%84%ED%95%A9%EC%8B%9C%EB%8B%A4
-
-로 바뀝니다. 그 주소를 다시 복사해서 공유하시면 됩니다. 
+위 주소를 공유하시면 됩니다. 
 
 
 
