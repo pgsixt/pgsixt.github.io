@@ -20,7 +20,7 @@
 
 ![주소창입력](https://pgsixt.github.io/notice/juso.png)
 
-위와 같이 입력하면 빈칸이 %20 으로 바뀌면서 아래의 주소가 됩니다.
+위와 같이 입력하고 엔터를 치면 빈칸이 %20 으로 바뀌면서 아래의 주소가 됩니다.
 
 ![주소창입력](https://pgsixt.github.io/notice/juso2.png)
 또는 https://pgsixt.github.io/?church=%ED%95%9C%EC%9D%B8%EA%B5%90%ED%9A%8C&prayer=%EB%AF%B8%EA%B5%AD&prayer=%EC%98%81%EC%A3%BC%EA%B6%8C%EC%9D%84%20%EB%86%93%EA%B3%A0%20%EC%96%B4%EB%A0%A4%EC%9B%80%EC%9D%84%20%EA%B2%AA%EB%8A%94%20%EC%9D%B4%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%B4%20%EA%B8%B0%EB%8F%84%ED%95%A9%EC%8B%9C%EB%8B%A4
