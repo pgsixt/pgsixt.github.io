@@ -357,7 +357,7 @@
 					</h4>
 					
 					<br/>
-					<h4>우리 공동체 (한국교회와 사회)의  죄를 용서하여 주시고,  구체적인 회개의 열매를 맺게 하옵소서.
+					<h4 class='prayer_text'>우리 공동체 (한국교회와 사회)의  죄를 용서하여 주시고,  구체적인 회개의 열매를 맺게 하옵소서.
 					</h4>
 					
 					<button id='btn_9'   class='btn btn-warning btn_next float-right' >다음
@@ -656,6 +656,10 @@
 			var churchname = getParameterByName('church');
 			
 			if(churchname!=="") $('.churchname').text(churchname);
+			
+			var prayer_text = getParameterByName('prayer');
+			
+			if(prayer_text!=="" ) $('.prayer_text').text(prayer_text);
 			
 			
 			aup.loop=true;
