@@ -1,14 +1,40 @@
-## 알려드립니다. 
+## 안내
 
-### 1. 사용법 안내
-여기 있는 자료는 각자 자리에서 기도할 수 있도록 돕기 위해 산성교회(서울 http://www.ssch.net 담임: 김응신 목사 ) 미디어부에 제작하였습니다.
+### 1. 교회 이름 넣기
 
 주소 뒷부분에 교회이름을 적으시면, 타이틀이 해당 교회 이름으로 뜹니다.
 - https://pgsixt.github.io/?church=산성교회
 - https://pgsixt.github.io/?church=교회이름
 
-이전의 기도실 내용을 이용하려면 아래 각 주차에 기록된 주소를 이용하시기 바랍니다.
+### 2. 개교회 기도제목 넣기
 
+크롬 등 브라우저 주소창에 &prayer=기도제목을 추가하시면 개별 교회 기도제목을 사용할 수 있습니다.
+지금은 기도제목을 한 개만 넣을 수 있고, 길어지면 기도제목이 잘릴 수 있습니다. 그러니 확인하시고 배포하셔야 합니다.
+
+
+- 형식 https://pgsixt.github.io/?church=교회이름&prayer=기도제목
+
+예) 교회 이름 : 한인교회, 기도제목: 영주권을 놓고 어려움을 겪는 이들을 위해 기도합시다 (
+
+-주소 https://pgsixt.github.io/?church=한인교회&prayer=미국&prayer=영주권을 놓고 어려움을 겪는 이들을 위해 기도합시다 
+
+![주소창입력](https://pgsixt.github.io/notice/juso.png)
+
+위와 같이 입력하면 빈칸이 %20 으로 바뀌면서 아래의 주소가 됩니다.
+
+![주소창입력](https://pgsixt.github.io/notice/juso2.png)
+또는 https://pgsixt.github.io/?church=%ED%95%9C%EC%9D%B8%EA%B5%90%ED%9A%8C&prayer=%EB%AF%B8%EA%B5%AD&prayer=%EC%98%81%EC%A3%BC%EA%B6%8C%EC%9D%84%20%EB%86%93%EA%B3%A0%20%EC%96%B4%EB%A0%A4%EC%9B%80%EC%9D%84%20%EA%B2%AA%EB%8A%94%20%EC%9D%B4%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%B4%20%EA%B8%B0%EB%8F%84%ED%95%A9%EC%8B%9C%EB%8B%A4
+
+로 바뀝니다. 그 주소를 다시 복사해서 공유하시면 됩니다. 
+
+
+
+## 온라인 기도실 개요
+
+### 1. 온라인 기도실은
+
+여기 있는 자료는 각자 자리에서 기도할 수 있도록 돕기 위해 산성교회(서울 http://www.ssch.net 담임: 김응신 목사 ) 미디어부에 제작하였습니다.
+이전의 기도실 내용을 이용하려면 아래 각 주차에 기록된 주소를 이용하시기 바랍니다.
 ### 2. 관련 사이트 소개
 청어람아카데미에서 진행하는 온라인 예배를 참고하여 제작하였습니다. 
 https://worship.ichungeoram.com/
@@ -26,6 +52,9 @@ https://worship.ichungeoram.com/
 산성교회 온라인 기도실을 바탕으로 제작이 됩니다. 다음주 자료를 보기 원하시는 분은 산성교회 온라인 기도실 http://ministry.ssch.net/prayer/room/  에서 확인하실 수 있습니다.
 문의사항은 아래 폼으로 남겨 주시면 답변드립니다. 
 https://forms.gle/8jSc5B6HHf5B4N5Z9
+
+
+
 
 
 ## 주차별 내용
