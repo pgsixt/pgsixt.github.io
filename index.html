@@ -554,7 +554,7 @@
 					
 				</div>
 				
-				<div class='maincard' data-bg='./mountain_go.jpg'>
+				<div class='maincard lastcard' data-bg='./mountain_go.jpg'>
 					<h2><b class='colyel'>파송</b>, <sub>세상을 향하여 </sub>
 					</h2>
 					
@@ -736,7 +736,9 @@
 				});
 				
 				
-				if(nowobj_number==$(".maincard").length) last_fadeout();
+				//if(nowobj_number==$(".maincard").length) last_fadeout();
+				//lastcard
+				if(next_obj.hasClass('lastcard')) last_fadeout();
 				
 				
 			});
