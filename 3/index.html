@@ -584,7 +584,12 @@
 			
 			for(var i=0;i<$('.maincard').length;i++) { $('.maincard').eq(i).html($('.maincard').eq(i).html().replaceAll("===","<hr>").replaceAll("---","<hr class='sm'>")); }		
 			
-			
+			for(i=0;i<$('.maincard').length;i++) {  // 이미지 프리로딩
+					
+					var img = new Image(); 
+					if($('.maincard').eq(i).data('bg')!==undefined) img.src = $('.maincard').eq(i).data('bg');
+				 
+				}
 			
 			
 			//$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
@@ -952,7 +957,7 @@
 			setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
 			setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
 			
-			setTimeout("aup.pause();"(delaytime+3)*1000);
+			setTimeout("aup.pause();",(delaytime+3)*1000);
 			
 			aup.loop=false;
 			

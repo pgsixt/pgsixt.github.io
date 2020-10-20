@@ -547,6 +547,14 @@
 			}
 			
 			
+			for(i=0;i<$('.maincard').length;i++) {  // 이미지 프리로딩
+					
+					var img = new Image(); 
+					if($('.maincard').eq(i).data('bg')!==undefined) img.src = $('.maincard').eq(i).data('bg');
+				 
+				}
+				
+			
 			$("#btn_end").click(function(){
 				self.opener=self;
 				self.close();
@@ -654,7 +662,7 @@
 				setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
 				
 				
-				setTimeout("aup.pause();"(delaytime+3)*1000);
+				setTimeout("aup.pause();",(delaytime+3)*1000);
 				
 				aup.loop=false;
 				
