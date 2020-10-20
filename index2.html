@@ -616,6 +616,26 @@
 				return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 			}
 			
+			
+			function load_code_Data(chrchcode) {
+			console.log(prayer_list[chrchcode]);
+			console.log("ok1");
+			 if(prayer_list[chrchcode]["edited"]!==undefined) {  //만일 슬라이드 내용을 수정하였다면
+			  console.log("ok2");
+				 for(j=0;j<prayer_list[chrchcode]["edited"].length;j++) {
+					 console.log("ok");
+					 
+					 console.log(prayer_list[chrchcode]["edited"][j]);
+					 
+					 }
+				 
+				 
+				 
+				 }
+			
+			}
+			
+			
 			$(document).ready(function(){
 				
 				
@@ -627,7 +647,18 @@
 				
 				if(prayer_text!=="" ) $('.prayer_text').text(prayer_text.replaceAll("_"," "));
 				
-				
+				var chrchcode = getParameterByName('code');
+				if(chrchcode!=="") {
+					if(prayer_list[chrchcode]!==undefined) {
+						alert("찾았다"+chrchcode);
+						load_code_Data(chrchcode)
+						
+						$('.churchname').text(prayer_list[chrchcode].churchname);
+						} else {
+						//alert("못찾았다"+chrchcode);
+						
+						} 
+				}
 				aup.loop=true;
 				aup.volume=0.35;
 				
