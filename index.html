@@ -580,7 +580,7 @@
 		<script>
 			//('#c15').find("input[type='text']").eq(0).val("ddd")
 			String.prototype.replaceAll = function(org, dest) {
-			return this.split(org).join(dest);
+				return this.split(org).join(dest);
 			}
 			
 			
@@ -603,217 +603,224 @@
 			var check_result="|";
 			var bricknumber=1;
 			function isMobile() {
-			return navigator.userAgent.indexOf('Mobi') > -1;
+				return navigator.userAgent.indexOf('Mobi') > -1;
 			}
 			String.prototype.replaceAll = function(org, dest) {
-			return this.split(org).join(dest);
+				return this.split(org).join(dest);
 			}
 			
 			function getParameterByName(name) {
-			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-			results = regex.exec(location.search);
-			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+				name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+				var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+				results = regex.exec(location.search);
+				return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 			}
 			
 			$(document).ready(function(){
-			
-			
-			var churchname = getParameterByName('church');
-			
-			if(churchname!=="") $('.churchname').text(churchname);
-			
-			var prayer_text = getParameterByName('prayer');
-			
-			if(prayer_text!=="" ) $('.prayer_text').text(prayer_text.replaceAll("_"," "));
-			
-			
-			aup.loop=true;
-			aup.volume=0.35;
-			
-			$('.maincard').css('display','none');
-			
-			//start_card
-			
-			nowobj=$('.maincard').eq(start_card-1);
-			
-			
-			if(nowobj.data('bg')!==undefined) chage_background_img(nowobj.data('bg')) ;
-			nowobj.show('slow'); 
-			nowobj.find(".byline").each(function (index) {
+				
+				
+				var churchname = getParameterByName('church');
+				
+				if(churchname!=="") $('.churchname').text(churchname);
+				
+				var prayer_text = getParameterByName('prayer');
+				
+				if(prayer_text!=="" ) $('.prayer_text').text(prayer_text.replaceAll("_"," "));
+				
+				
+				aup.loop=true;
+				aup.volume=0.35;
+				
+				$('.maincard').css('display','none');
+				
+				//start_card
+				
+				nowobj=$('.maincard').eq(start_card-1);
+				
+				
+				if(nowobj.data('bg')!==undefined) chage_background_img(nowobj.data('bg')) ;
+				nowobj.show('slow'); 
+				nowobj.find(".byline").each(function (index) {
 					setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-				
-			});
-			
-			
-			
-			if(!isMobile()) {
-			
-			
-			$('#main_fr').addClass('h-100');
-			
-			} else {
-			
-			$('#main_fr').removeClass('align-items-center ');
-			$('#main_fr').css('padding-top','30px')
-			}
-			if(navigator.userAgent.indexOf('KAKAO')>0) {
-			$('#btn_end').prop('href',"kakaoweb://closeBrowser");
-			} else {
-			$('#btn_end').detach();
-			
-			
-			}
-			
-			
-			
-			
-			
-			$("#btn_end").click(function(){
-			self.opener=self;
-			self.close();
-			window.close();
-			window.open('','_self').close();  
-			
-			$(".maincard:last-child").fadeOut('slow',function() { 
-			document.getElementById('aup').volume=0
-			self.opener=self;
-			self.close();
-			window.close();
-			window.open('','_self').close();  
-			
-			if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
-			// alert(navigator.userAgent);
-			
-		});
-	});
-	
-	
-	
-	$(".btn_next").click(function(){
-		var next_obj=nowobj.next();
-		
-		kill_media=$(this).data('kill');  //유튜브 지우기
-		
-		 
-		
-		
-		nowobj.fadeOut(1500,function() { 
-			
-			if(kill_media!==undefined) $(kill_media).detach();
-			
-			
-			
-			if(next_obj.data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
-				chage_background_img(next_obj.data('bg')) ;
-				
-			}
-			
-			
-			openFullScreenMode();
-			
-			
-			
-			
-			next_obj.fadeIn(1200,function() {
-				
-				if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
-				
-				next_obj.find(".byline").each(function (index) {
 					
-					if (navigator.userAgent.indexOf('Tri') >0) { 
+				});
+				
+				for(i=0;i<$('.maincard').length;i++) {  // 이미지 프리로딩
+					
+					var img = new Image(); 
+					if($('.maincard').eq(i).data('bg')!==undefined) img.src = $('.maincard').eq(i).data('bg');
+				 
+				}
+				
+				
+				
+				if(!isMobile()) {
+					
+					
+					$('#main_fr').addClass('h-100');
+					
+					} else {
+					
+					$('#main_fr').removeClass('align-items-center ');
+					$('#main_fr').css('padding-top','30px')
+				}
+				if(navigator.userAgent.indexOf('KAKAO')>0) {
+					$('#btn_end').prop('href',"kakaoweb://closeBrowser");
+					} else {
+					$('#btn_end').detach();
+					
+					
+				}
+				
+				
+				
+				
+				
+				$("#btn_end").click(function(){
+					self.opener=self;
+					self.close();
+					window.close();
+					window.open('','_self').close();  
+					
+					$(".maincard:last-child").fadeOut('slow',function() { 
+						document.getElementById('aup').volume=0
+						self.opener=self;
+						self.close();
+						window.close();
+						window.open('','_self').close();  
 						
-						$(this).removeClass('byline');
+						if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
+						// alert(navigator.userAgent);
 						
-						} else {
+					});
+				});
+				
+				
+				
+				$(".btn_next").click(function(){
+					var next_obj=nowobj.next();
+					
+					kill_media=$(this).data('kill');  //유튜브 지우기
+					
+					
+					
+					
+					nowobj.fadeOut(1500,function() { 
+						
+						if(kill_media!==undefined) $(kill_media).detach();
 						
 						
-						setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
 						
-					}
+						if(next_obj.data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
+							chage_background_img(next_obj.data('bg')) ;
+							
+						}
+						
+						
+						openFullScreenMode();
+						
+						
+						
+						
+						next_obj.fadeIn(1200,function() {
+							
+							if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
+							
+							next_obj.find(".byline").each(function (index) {
+								
+								if (navigator.userAgent.indexOf('Tri') >0) { 
+									
+									$(this).removeClass('byline');
+									
+									} else {
+									
+									
+									setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
+									
+								}
+								
+							});
+							
+							
+							//if(nowobj_number==$(".maincard").length) last_fadeout();
+							//lastcard
+							if(next_obj.hasClass('lastcard')) last_fadeout();
+							
+							
+						});
+						nowobj=next_obj;
+						nowobj_number++;
+					});
+					
+					
 					
 				});
 				
 				
-				//if(nowobj_number==$(".maincard").length) last_fadeout();
-				//lastcard
-				if(next_obj.hasClass('lastcard')) last_fadeout();
-				
-				
 			});
-			nowobj=next_obj;
-			nowobj_number++;
-		});
+			
+			
+			
+			function chage_background_img(img_name) {
+				
+				if(navigator.userAgent.indexOf('Tri')) {
+					
+					$('body').css('background-image',"url("+img_name+")");
+					
+					} else {
+					$('body').css('background-image',"url('"+img_name+"')");
+					
+				}
+				
+				
+				
+				
+			}
+			
+			
+			
+			function openFullScreenMode() {
+				var docV = document.documentElement;
+				if (docV.requestFullscreen) 
+				docV.requestFullscreen();
+				else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
+				docV.webkitRequestFullscreen();
+				else if (docV.mozRequestFullScreen) // Firefox
+				docV.mozRequestFullScreen();
+				else if (docV.msRequestFullscreen) // IE or Edge
+				docV.msRequestFullscreen();
+			}
+			
+			// 전체화면 해제
+			function closeFullScreenMode() {
+				
+			}
+			
+			function last_fadeout() {
+				delaytime=15;
+				
+				setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
+				
+				setTimeout("aup.pause();"(delaytime+3)*1000);
+				
+				aup.loop=false;
+				
+				setTimeout("location.href = 'http://ssch.net'",(delaytime+15)*1000);
+				setTimeout("aup.pause();"(delaytime+3)*1000);
+				
+				
+			}
+			
+			
+		</script>
 		
- 
-		
-	});
-	
-	
-});
-
-
-
-function chage_background_img(img_name) {
-	
-	if(navigator.userAgent.indexOf('Tri')) {
-		
-		$('body').css('background-image',"url("+img_name+")");
-		
-		} else {
-		$('body').css('background-image',"url('"+img_name+"')");
-		
-	}
-	
-	
-	
-	
-}
-
-
-
-function openFullScreenMode() {
-	var docV = document.documentElement;
-	if (docV.requestFullscreen) 
-	docV.requestFullscreen();
-	else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
-	docV.webkitRequestFullscreen();
-	else if (docV.mozRequestFullScreen) // Firefox
-	docV.mozRequestFullScreen();
-	else if (docV.msRequestFullscreen) // IE or Edge
-	docV.msRequestFullscreen();
-}
-
-// 전체화면 해제
-function closeFullScreenMode() {
-	
-}
-
-function last_fadeout() {
-	delaytime=15;
-	
-	setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
-	setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
-	
-	setTimeout("aup.pause();"(delaytime+3)*1000);
-	
-	aup.loop=false;
-	
-	setTimeout("location.href = 'http://ssch.net'",(delaytime+15)*1000);
-	setTimeout("aup.pause();"(delaytime+3)*1000);
-	
-	
-}
-
-
-</script>
-
-</body>
+	</body>
 </html>
 
