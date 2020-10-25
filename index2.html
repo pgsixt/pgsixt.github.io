@@ -616,17 +616,14 @@
 				return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 			}
 			
-			
+			/*
+				
 			function load_code_Data(chrchcode) {
 			console.log(prayer_list[chrchcode]);
-			console.log("ok1");
 			 if(prayer_list[chrchcode]["edited"]!==undefined) {  //만일 슬라이드 내용을 수정하였다면
-			  console.log("ok2");
-				 for(j=0;j<prayer_list[chrchcode]["edited"].length;j++) {
-					 console.log("ok");
-					 
-					 console.log(prayer_list[chrchcode]["edited"][j]);
-					 
+			 		 for(j=0;j<prayer_list[chrchcode]["edited"].length;j++) {
+						 console.log(prayer_list[chrchcode]["edited"][j]);
+						$('.maincard').eq(prayer_list[chrchcode]["edited"][j].slideNum-1).html(prayer_list[chrchcode]["edited"][j].prayer);
 					 }
 				 
 				 
@@ -635,10 +632,36 @@
 			
 			}
 			
+			*/
+			function load_data_from_server(str_churchcode) {
+				
+				$.ajax({   
+					url: "//wessch.cafe24.com/maker/loaddata.php?church_code="+str_churchcode,
+					type:"GET",
+					dataType:'json',
+					
+					success:function (data) {
+					var i=0;
+					
+					 $('.churchname').text(data.church_name); 
+					 
+					 //console.log(data.edited_slide);
+					 var slide_data=JSON.parse(data.edited_slide);
+					 console.log(slide_data);
+					 
+					 for(i=0;i<slide_data.length;i++) {
+								$('.maincard').eq(slide_data[i].slideNum-1).html(make_slide(slide_data[i].prayer));
+							
+						}
+						
+				}}); 
+				
+			}
+			
 			
 			$(document).ready(function(){
 				
-				
+				//TPJtSXdGK
 				var churchname = getParameterByName('church');
 				
 				if(churchname!=="") $('.churchname').text(churchname);
@@ -647,15 +670,31 @@
 				
 				if(prayer_text!=="" ) $('.prayer_text').text(prayer_text.replaceAll("_"," "));
 				
+				
+				var prayer_list={"xEfa":{"churchname":"플라워마운드교회", "timestamp":"2020-10-21 11:22:33","exp":"2020-10-25 11:22:33", "roomnumber":"6","edited": [{"slideNum":2, prayer:"제목::[얼굴을], [[무릎 사이에 넣고]]\n===\n설명*::말씀을 새기며 기도합시다.\n설명*::우리가 원하는 것을 나열한들 주님과 상관없으면 아무것도 아닙니다.\n---큰본문::우리는 [많은 말]을 해야 좋은 기도라고 생각합니다.\n줄바꿈::\n큰본문::우리가 기도할 내용보다 주님께서 하실 말씀이 더욱 많습니다. 기도를 통해 주님의 뜻을 듣게 되길 기도합시다.\n줄바꿈::\n큰본문::주님 우리가 먼저 [듣기] 원하오니, 이 기도의 시간이 듣는 자리가 되게 하소서\n줄바꿈::\n다음버튼::다음"},{"slideNum":3, prayer:"제목::[미국사회]\n다음버튼::다음"}] }};
+
+				prayer_list["xEfa2"]={"churchname":"플라워마운드교회", "timestamp":"2020-10-21 11:22:33", "roomnumber":"6","edited": [{"slideNum":2, prayer:"<h4>김 XX 권사님 건강위해서 기도합시다. 나 하늘에 맹세해</h4>"},{"slideNum":9, prayer:"미국사회"}] };
+
+
+
+				
+				
 				var chrchcode = getParameterByName('code');
-				if(chrchcode!=="") {
-					if(prayer_list[chrchcode]!==undefined) {
-						alert("찾았다"+chrchcode);
-						load_code_Data(chrchcode)
+				if(chrchcode!=="") {        // 교회 코드가 설정되어 있다면 
+					if(prayer_list[chrchcode]!==undefined) {   //먼저 리스트에서 찾고
+					 
+						$('.churchname').text(prayer_list[chrchcode].churchname);  //타이틀을 바꿔준다
 						
-						$('.churchname').text(prayer_list[chrchcode].churchname);
+						for(i=0;i<prayer_list[chrchcode].edited.length;i++) {
+						console.log(make_slide(prayer_list[chrchcode].edited[i].prayer));
+							$('.maincard').eq(prayer_list[chrchcode].edited[i].slideNum-1).html(make_slide(prayer_list[chrchcode].edited[i].prayer));
+							
+						}
+						
+						
 						} else {
 						//alert("못찾았다"+chrchcode);
+						load_data_from_server(chrchcode);
 						
 						} 
 				}
@@ -727,8 +766,8 @@
 				});
 				
 				
-				
-				$(".btn_next").click(function(){
+				$(document).on("click",".btn_next", function(event){
+				//$(".btn_next").click(function(){
 					var next_obj=nowobj.next();
 					
 					kill_media=$(this).data('kill');  //유튜브 지우기
@@ -848,6 +887,111 @@
 				
 				
 			}
+			
+			
+			
+			function make_slide(raw_slide_data) {
+			var nowhtml=raw_slide_data;
+				nowhtml=nowhtml.replaceAll("슬라이드::\n","").replaceAll("===","<hr/>").replaceAll("---","<hr class='sm'>");
+				nowhtml= tagconvert(nowhtml, "<h2 class='text-center incard h2center'>","</h2>","가운데제목::");
+				nowhtml= tagconvert(nowhtml, "<h2 class='incard h2'>","</h2>","제목::");
+				nowhtml=nowhtml.replaceAll("[[","<sub>");
+				nowhtml=nowhtml.replaceAll("]]","</sub>");
+				
+				nowhtml=nowhtml.replaceAll("[","<b class='colyel'>");
+				nowhtml=nowhtml.replaceAll("]","</b>");
+				nowhtml=nowhtml.replaceAll("줄바꿈::","<br/>");
+				
+				
+				nowhtml= tagconvert(nowhtml, "<li class='incard li'>","</li>","설명*::");
+				
+				nowhtml=tagconvert(nowhtml,"<button  class='btn btn-warning btn_next float-right' >","</button>","다음버튼::");
+				
+				
+				
+				nowhtml= tagconvert(nowhtml, "<h4 class='text-center incard h4center'>","</h4>","가운데큰본문::");
+				nowhtml= tagconvert(nowhtml, "<h5 class='text-center incard h5center'>","</h5>","가운데중간본문::");
+				nowhtml= tagconvert(nowhtml, "<h6 class='text-center incard h6center'>","</h6>","가운데작은본문::");
+				
+				
+				
+				nowhtml= tagconvert(nowhtml, "<h4 class='text-right incard h4right'>","</h4>","오른쪽큰본문::");
+				nowhtml= tagconvert(nowhtml, "<h5 class='text-right incard h5right'>","</h5>","오른쪽중간본문::");
+				nowhtml= tagconvert(nowhtml, "<h6 class='text-right incard h5right'>","</h6>","오른쪽작은본문::");
+				
+				
+				nowhtml= tagconvert(nowhtml, "<h6 class='incard h6'>","</h6>","작은본문::");
+				nowhtml= tagconvert(nowhtml, "<h5 class='incard h5'>","</h5>","중간본문::");
+				nowhtml= tagconvert(nowhtml, "<h4 class='incard h4'>","</h4>","큰본문::");
+				nowhtml= nowhtml.replaceAll( "푸른시작버튼::","<button class='btn btn-info btn_next '>시작하기</button>");
+				nowhtml= nowhtml.replaceAll( "시작버튼::","<button class='btn btn-warning btn_next'>시작하기</button>");
+				
+				
+				
+				nowhtml=pictureconverter(nowhtml);
+				nowhtml=mediaconverter(nowhtml);
+				return  nowhtml;
+				
+				}
+				
+				
+			function tagconvert (fulltext, tag_start, tag_end,origintag) {
+				var imsihtmltext=fulltext;
+				var intag_content="";
+				
+				if(imsihtmltext.indexOf(origintag)==-1) return fulltext;
+				var cnt=0;
+				do {
+					cnt++;
+					
+					intag_content=imsihtmltext.split(origintag)[1].split("\n")[0];
+					
+					imsihtmltext=imsihtmltext.replace(origintag+intag_content,tag_start.slice(0,-1)+" data-cnt='"+cnt+"'>"+intag_content+tag_end);
+					if(cnt>100) break;
+				} while (imsihtmltext.indexOf(origintag)>=0)
+				
+				return  imsihtmltext;
+				
+			}
+			
+			function mediaconverter(fulltext) {
+				
+				var imsihtmltext=fulltext;
+				var intag_content="";
+				var cnt=0;
+				
+				if(imsihtmltext.indexOf("유튜브::")==-1) return fulltext;
+				do { 
+					intag_content=imsihtmltext.split("유튜브::")[1].split("\n")[0];
+					
+					imsihtmltext=imsihtmltext.replace("유튜브::"+intag_content,"<div class='embed-responsive embed-responsive-16by9'><iframe id='if1'  class='embed-responsive-item' src='"+intag_content+"'></iframe></div>");
+					
+					if(cnt++>100) break;
+				} while (imsihtmltext.indexOf("유튜브::")>=0)
+				
+				return  imsihtmltext;
+				
+				
+			}
+			
+			function pictureconverter (fulltext) {
+				var imsihtmltext=fulltext;
+				var intag_content="";
+				var cnt=0;
+				
+				if(imsihtmltext.indexOf("자료사진::")==-1) return fulltext;
+				do { 
+					intag_content=imsihtmltext.split("자료사진::")[1].split("\n")[0];
+					
+					imsihtmltext=imsihtmltext.replace("자료사진::"+intag_content,"<div class='text-center'><img src='"+intag_content+"'class='img-fluid ' alt='Responsive image' style='width:50%'/></div>");
+					if(cnt++>100) break;
+				} while (imsihtmltext.indexOf("자료사진::")>=0)
+				
+				return  imsihtmltext;
+				//$imsilist2="<div class='text-center'><img src='$this_title'class='img-fluid ' alt='Responsive image' style='width:50%'/></div>".$imsilist2;
+			}
+			
+			
 			
 			
 		</script>
