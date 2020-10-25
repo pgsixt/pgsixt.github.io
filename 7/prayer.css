@@ -1,0 +1,77 @@
+.maincard {
+				display:none; 
+				}
+				
+				h6 {
+				color:#ffffff;
+				
+				}
+				
+				html,body {
+				height: 100%;
+				}
+				
+				BODY {
+				min-height: 100%;
+				background-color: #000;
+				
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				}
+				
+				h2,h3, h4, h5,li {
+				color:#fff;
+				}
+				hr {
+				background-color: #aaa;
+				height: 2px; 
+				} 
+				
+				hr.sm {
+				background-color: #aaa;
+				height: 1px; 
+				} 
+				
+				li {
+				font-size:18px;
+				
+				}
+				btn_next {
+				font-weight:bold;
+				
+				}
+				
+				.oneline::placeholder {
+				color: #f5c842;
+				
+				} 
+				
+				.oneline {
+				
+				font-size: 24px;
+				color: #f5c842;
+				weight:bold;
+				border: none; 
+				background: transparent;
+				width:100%;
+				
+				}
+				.oneline:focus {
+				font-size: 24px;
+				color: #f5c842;
+				weight:bold;
+				border: none; 
+				background: transparent;
+				outline:none;
+				
+				}
+				
+				input[type="number"]::-webkit-outer-spin-button,
+				input[type="number"]::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+				}
+				.colyel{
+				color: #f5c842;
+				}
