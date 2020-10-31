@@ -31,12 +31,14 @@
 - 주소: http://wessch.cafe24.com/maker/
 
 
-### 3. 자유롭게 수정하기
+### 4. 퍼가기
 github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정하시면 됩니다. 
 - github 가입후,  https://github.com/pgsixt/pgsixt.github.io 우상단의 [fork] 하기 클릭
 - 이후 settings 에서 자신이 가입한 아이디로 프로젝트 이름을 고치면 (rename)  새로운 홈페이지 주소가 생깁니다. 
 - https://자기아이디.github.io  
 - index.html 파일을 여시면 기도 제목을 수정하실 수 있습니다.
+- 퍼가셔서 자유롭게 사용하셔도 좋은데, 상업적으로 사용하지 마시기 바랍니다. 
+- 퍼가시면서 제작자와 산성교회를 위해 기도부탁드립니다. 
 
  
 
