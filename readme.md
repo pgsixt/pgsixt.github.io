@@ -73,6 +73,7 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
   (기본 기도실 이용)
 - 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
   (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
+  https://kdkim99.github.io
 
 ## 개요
 
