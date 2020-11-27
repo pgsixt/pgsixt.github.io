@@ -1,4 +1,21 @@
 # 안내
+## 온라인기도실 활용 교회 (2020.11.27 현재)
+아래 목록은 교회 상황에 따라 달라질 수 있습니다.
+- 산성교회   http://ministry.ssch.net/prayer/room/
+- 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
+  (포크 후 자체 내용으로 구성)
+- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html
+  (포크 후 자체 내용으로 구성)
+- 일산예일교회 http://yeil153.org/index.php  
+  (기본 기도실 이용)
+- 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
+  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
+  https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
+- 동일교회 https://dongilch.github.io/201122/
+  (포크 후 자체 내용으로 구성)
+- 세상의 빛 염산교회 https://woosung3.github.io/
+  (포크 후 자체 내용으로 구성)
+ 
 
 ###  게시 일정
 #### 1차 구약의 기도 (2020년 11월까지)
@@ -69,23 +86,6 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
 - 퍼가시면서 제작자와 산성교회를 위해 기도부탁드립니다. 
 - 배포 전에 반드시 내용을 확인하시기 바랍니다. 혹시 개교회에 맞지 않는 기도제목이 있을 수도 있습니다. 
 
- 
-## 온라인기도실 활용 교회 (2020.11.27 현재)
-아래 목록은 교회 상황에 따라 달라질 수 있습니다.
-- 산성교회   http://ministry.ssch.net/prayer/room/
-- 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
-  (포크 후 자체 내용으로 구성)
-- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html
-  (포크 후 자체 내용으로 구성)
-- 일산예일교회 http://yeil153.org/index.php  
-  (기본 기도실 이용)
-- 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
-  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
-  https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
-- 동일교회 https://dongilch.github.io/201122/
-  (포크 후 자체 내용으로 구성)
-- 세상의 빛 염산교회 https://woosung3.github.io/
-  (포크 후 자체 내용으로 구성)
  
 
 
