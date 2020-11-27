@@ -57,7 +57,7 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
 - 퍼가시면서 제작자와 산성교회를 위해 기도부탁드립니다. 
 - 배포 전에 반드시 내용을 확인하시기 바랍니다. 혹시 개교회에 맞지 않는 기도제목이 있을 수도 있습니다. 
  
-## 온라인기도실 활용 교회 (2020.11.15 현재)
+## 온라인기도실 활용 교회 (2020.11.27 현재)
 아래 목록은 교회 상황에 따라 달라질 수 있습니다.
 - 산성교회  (기도운동 안내) http://www.ssch.net/board_gFqV32/28914   (배포) http://ministry.ssch.net/prayer/room/
 - 면목교회    http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
@@ -69,6 +69,9 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
 - 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
   (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
   https://kdkim99.github.io
+- 동일교회 https://dongilch.github.io/201122/
+  (포크 후 자체 내용으로 구성)
+
 
 ## 개요
 
@@ -196,6 +199,14 @@ https://worship.ichungeoram.com/
 - 감사시: 시편 106편 47절
 - 배경음악: 마스터믹싱 박경선 전도사, 메인건반 김은혜, 세컨 김승범, 녹음 이민규 방송실장
 
+### 11주차 기도
+![11주차](https://pgsixt.github.io/10/10.png)
+- 게시일: 2020. 11. 27
+- 찬양:우리 함께 기도해 (노래 찬미, 2020 New 트리니티 어쿠스틱워십 4집)  https://youtu.be/v-fPHJLMhEo
+- 말씀: 느헤미야1:5-6,9,11
+- 기도문: 성 어거스틴의 고백록, 10권 22장
+- 감사시: 시편 44편 8절
+- 배경음악: 마스터믹싱 박경선 전도사, 메인건반 김은혜, 세컨 김승범, 녹음 이민규 방송실장
 
 ### 산성교회 온라인 기도실
 (한 주 먼저 게시됩니다.) http://ministry.ssch.net/prayer/room/
