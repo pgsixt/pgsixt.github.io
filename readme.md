@@ -1,6 +1,6 @@
 # 안내
 ## 온라인기도실 활용 교회 (2020.11.27 현재)
-아래 목록은 교회 상황에 따라 달라질 수 있습니다.
+아래 목록은 교회 상황에 따라 변경될 수 있습니다.
 - 산성교회   http://ministry.ssch.net/prayer/room/
 - 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
   (포크 후 자체 내용으로 구성)
