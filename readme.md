@@ -107,8 +107,8 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
  
 ## 온라인기도실 활용 교회 (2020.11.27 현재)
 아래 목록은 교회 상황에 따라 달라질 수 있습니다.
-- 산성교회  (기도운동 안내) http://www.ssch.net/board_gFqV32/28914   (배포) http://ministry.ssch.net/prayer/room/
-- 면목교회    http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
+- 산성교회   http://ministry.ssch.net/prayer/room/
+- 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
   (포크 후 자체 내용으로 구성)
 - 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html
   (포크 후 자체 내용으로 구성)
@@ -116,9 +116,12 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
   (기본 기도실 이용)
 - 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
   (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
-  https://kdkim99.github.io
+  https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
 - 동일교회 https://dongilch.github.io/201122/
   (포크 후 자체 내용으로 구성)
+- 세상의 빛 염산교회 https://woosung3.github.io/
+  (포크 후 자체 내용으로 구성)
+ 
 
 
 ## 개요
