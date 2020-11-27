@@ -1,8 +1,37 @@
 # 안내
+## 온라인기도실 활용 교회 (2020.11.27 현재)
+아래 목록은 교회 상황에 따라 변경될 수 있습니다.
+- 산성교회   http://ministry.ssch.net/prayer/room/
+- 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
+  (포크 후 자체 내용으로 구성)
+- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html
+  (포크 후 자체 내용으로 구성)
+- 일산예일교회 http://yeil153.org/index.php  
+  (기본 기도실 이용)
+- 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
+  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
+  https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
+- 동일교회 https://dongilch.github.io/201122/
+  (포크 후 자체 내용으로 구성)
+- 세상의 빛 염산교회 https://woosung3.github.io/
+  (포크 후 자체 내용으로 구성)
+ 
 
-###  게시 일정 (1차 2020년 12월까지)
-- 본 온라인 기도실은 올해 12월까지 업데이트 됩니다. 현재 **구약 인물들의 기도**를  게시 중이며, 이후 절기등에 맞춰 게시될 예정입니다. 정비후 다시 새로운 주제로 게시할 예정입니다. (2021년 사순절 정도로 계획하고 있습니다.)
+###  게시 일정
+#### 1차 구약의 기도 (2020년 11월까지)
+- 현재 **구약 인물들의 기도**를  게시 중이며, 이후 절기등에 맞춰 게시될 예정입니다. 
 - 본 기도실의 내용은 별도 예고 없이 수정될 수 있습니다. 대체로 에러나 오탈자를 잡는 것이지만, 일부 내용이 변경될 수도 있습니다.
+
+#### 2차 예수님의 기도 (2020년 12월까지)
+- 요한복음 17장에 나오는 대제사장적 기도를 통해 한해를 기도로 마무리 하고자 합니다. 아래 구절과 제목은 상황에 따라 일부 조정될 수 있습니다. 
+- 13주차 영화롭게 하옵소서 (요17:1-5) 
+- 14주차 내게 주신 사람들 (요17:6-8)
+- 15주차 그들로 하나가 되게 (요17:9-14)
+- 17주차 진리로 거룩하게 (요17:15-19)
+- 18주차 세상이 알게 하옵소서 (요17:20-26)
+
+- 본 온라인 기도실은 올해 12월까지 업데이트 됩니다. 정비후 다시 새로운 주제로 게시할 예정입니다. (2021년 사순절 정도로 계획하고 있습니다.)
+
 
 ## 이용방법
 
@@ -56,21 +85,8 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
 - 퍼가셔서 자유롭게 사용하셔도 좋은데, 상업적으로 사용하지 마시기 바랍니다.
 - 퍼가시면서 제작자와 산성교회를 위해 기도부탁드립니다. 
 - 배포 전에 반드시 내용을 확인하시기 바랍니다. 혹시 개교회에 맞지 않는 기도제목이 있을 수도 있습니다. 
+
  
-## 온라인기도실 활용 교회 (2020.11.27 현재)
-아래 목록은 교회 상황에 따라 달라질 수 있습니다.
-- 산성교회  (기도운동 안내) http://www.ssch.net/board_gFqV32/28914   (배포) http://ministry.ssch.net/prayer/room/
-- 면목교회    http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
-  (포크 후 자체 내용으로 구성)
-- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html
-  (포크 후 자체 내용으로 구성)
-- 일산예일교회 http://yeil153.org/index.php  
-  (기본 기도실 이용)
-- 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
-  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
-  https://kdkim99.github.io
-- 동일교회 https://dongilch.github.io/201122/
-  (포크 후 자체 내용으로 구성)
 
 
 ## 개요
@@ -200,7 +216,7 @@ https://worship.ichungeoram.com/
 - 배경음악: 마스터믹싱 박경선 전도사, 메인건반 김은혜, 세컨 김승범, 녹음 이민규 방송실장
 
 ### 11주차 기도
-![11주차](https://pgsixt.github.io/10/10.png)
+![11주차](https://pgsixt.github.io/11/11.png)
 - 게시일: 2020. 11. 27
 - 찬양:우리 함께 기도해 (노래 찬미, 2020 New 트리니티 어쿠스틱워십 4집)  https://youtu.be/v-fPHJLMhEo
 - 말씀: 느헤미야1:5-6,9,11
