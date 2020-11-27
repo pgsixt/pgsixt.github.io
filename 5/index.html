@@ -6,7 +6,8 @@
 		<meta name="description" content="교회를 위한 온라인기도실">
 		<meta name="author" content="온라인기도실">
 		<meta name="generator" content="온라인 기도실">
-		<meta property="og:url" content="https://pgsixt.github.io/" /> 
+		<!--<meta property="og:url" content="https://pgsixt.github.io/" /> -->
+		
 		<meta property="og:type" content="website" /> 
 		<meta property="og:image" content="./05.png" />
 		<meta property="og:title" content="온라인 기도실" />  
@@ -14,6 +15,7 @@
 		
 		<!-- CSS only -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://wessch.cafe24.com/us/prayer.css">
 		
 		<!-- JS, Popper.js, and jQuery -->
 		
@@ -30,92 +32,7 @@
 		<title>온라인 기도실</title>
 	</head>
 	<body>
-		<style>
-			<style>
-				.maincard {
-				display:none; 
-				}
-				
-				h6 {
-				color:#ffffff;
-				
-				}
-				
-				html,body {
-				height: 100%;
-				}
-				
-				BODY {
-				min-height: 100%;
-				background-color: #000;
-				
-				background-position: center center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				}
-				
-				h2,h3, h4, h5,li {
-				color:#fff;
-				}
-				hr {
-				background-color: #aaa;
-				height: 2px; 
-				} 
-				
-				hr.sm {
-				background-color: #aaa;
-				height: 1px; 
-				} 
-				
-				li {
-				font-size:18px;
-				
-				}
-				btn_next {
-				font-weight:bold;
-				
-				}
-				
-				.oneline::placeholder {
-				color: #f5c842;
-				
-				} 
-				
-				.oneline {
-				
-				font-size: 24px;
-				color: #f5c842;
-				weight:bold;
-				border: none; 
-				background: transparent;
-				width:100%;
-				
-				}
-				.oneline:focus {
-				font-size: 24px;
-				color: #f5c842;
-				weight:bold;
-				border: none; 
-				background: transparent;
-				outline:none;
-				
-				}
-				
-				input[type="number"]::-webkit-outer-spin-button,
-				input[type="number"]::-webkit-inner-spin-button {
-				-webkit-appearance: none;
-				margin: 0;
-				}
-				.colyel{
-				color: #f5c842;
-				}
-				
-			</style>
-			
-		</style>
-		
-		
-		
+		 
 		
 		<div class="container-sm  justify-content-center  h-100" >   
 			<div class="row d-flex justify-content-center align-items-center " id='main_fr'>
@@ -124,18 +41,18 @@
 				
 				
 				
-				<div class='maincard' id='c1'  data-bg='http://ministry.ssch.net/prayer/bg3.jpg'>
+				<div class='maincard clearfix' id='c1'  data-bg='./bg3.jpg'>
 					<div class='text-center'><img src='./knee2.jpg'class='img-fluid ' alt='Responsive image' style='width:50%'/></div>
 					
 					<hr>
 					
-					<h2 class='text-center'><b class='colyel churchname'> </b> 온라인 기도실
-					</h2>
+					<h3 class='text-center'><b class='colyel churchname'> </b> 온라인 기도실</h3>
+					<h5  class='text-center colyel'>솔로몬의 기도</h5>
 					<hr>
 					
 					<button id='btn_1'  class='btn btn-warning btn_next btn-block'>시작하기</button>
 				</div>
-				<div class='maincard' id='c2'  data-bg='./bg3.jpg'>
+				<div class='maincard clearfix' id='c2'  data-bg='./bg3.jpg'>
 					<h2>온라인 <b class='colyel'>기도실</b> 안내
 					</h2>
 					
@@ -163,7 +80,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c3'  data-bg='./04cross2.jpg'>
+				<div class='maincard clearfix' id='c3'  data-bg='./04cross2.jpg'>
 					<h2><b class='colyel'>찬양</b>, <sub>마음을 열며</sub>
 					</h2>
 					
@@ -196,7 +113,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c4'  data-bg='./04cross2.jpg'>
+				<div class='maincard clearfix' id='c4'  data-bg='./04cross2.jpg'>
 					
 					<h5>주 영광 찬란해 빛되신 우리 왕
 					</h5>
@@ -222,7 +139,7 @@
 					<button id='btn_4'  type="submit"   class="btn btn-warning btn_next float-right" name="button" id='btn_4' data-kill='#if1' onclick='aup.play();' >다음</button>
 					
 				</div>
-				<div class='maincard' id='c5'  data-bg='./04cross4.jpg'>
+				<div class='maincard clearfix' id='c5'  data-bg='./04cross4.jpg'>
 					
 					<h2><b class='colyel'>말씀</b>, <sub>우리의 시선을 두고</sub>
 					</h2>
@@ -250,7 +167,7 @@
 					</button>
 					
 				</div>
-				<div class='maincard' id='c6'  data-bg='./04cross4.jpg'>
+				<div class='maincard clearfix' id='c6'  data-bg='./04cross4.jpg'>
 					<h2><b class='colyel'>성전</b>, <sub>내 이름을 거기에 두리라</sub>
 					</h2>
 					
@@ -275,7 +192,7 @@
 					<br/>
 				<button id='btn_6'   class='btn btn-warning btn_next float-right' >다음</div></button>
 				
-				<div class='maincard' id='c7'  data-bg='./04cross4.jpg'>
+				<div class='maincard clearfix' id='c7'  data-bg='./04cross4.jpg'>
 					<h2><b class='colyel'>기도와 간구</b>, <sub>부르짖어 빌다</sub>
 					</h2>
 					
@@ -304,7 +221,7 @@
 					
 				<button id='btn_7'   class='btn btn-warning btn_next float-right' >다음</div></button>
 				
-				<div class='maincard' id='c8'  data-bg='./05wind3.jpg'>
+				<div class='maincard clearfix' id='c8'  data-bg='./05wind3.jpg'>
 					<h2><b class='colyel'>사하여</b> <sub>주옵소서</sub>
 					</h2>
 					
@@ -335,7 +252,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c9'  data-bg='./05wind3.jpg'>
+				<div class='maincard clearfix' id='c9'  data-bg='./05wind3.jpg'>
 					<h2><b class='colyel'>사하여</b> <sub>주옵소서</sub>
 					</h2>
 					
@@ -366,7 +283,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c10'  data-bg='./05ando.jpg'>
+				<div class='maincard clearfix' id='c10'  data-bg='./05ando.jpg'>
 					<!-- ./05console.jpg'>-->
 					<h2><b class='colyel'>들으시고</b>, <sub>들으시사</sub>
 					</h2>
@@ -392,7 +309,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c11'  data-bg='./05wire.jpg'>
+				<div class='maincard clearfix' id='c11'  data-bg='./05wire.jpg'>
 					<h2><b class='colyel'>하늘</b>, <sub>주께서 계신 곳</sub> 
 					</h2>
 					
@@ -421,7 +338,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c12'  data-bg='./05seoul2.jpg'>
+				<div class='maincard clearfix' id='c12'  data-bg='./05seoul2.jpg'>
 					<h2><b class='colyel'>기도문</b>, <sub>토마스 아 캠피스</sub>
 					</h2>
 					
@@ -453,7 +370,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c13'  data-bg='./05seoul.jpg'>
+				<div class='maincard clearfix' id='c13'  data-bg='./05seoul.jpg'>
 					<h4>주님이 원하시는 곳에 나를 두시고, 
 					</h4>
 					<h4>적당하다고 생각하는 대로 나를 다루소서. 
@@ -483,7 +400,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c14'  data-bg='./03sea.jpg'>
+				<div class='maincard clearfix' id='c14'  data-bg='./03sea.jpg'>
 					<h2><b class='colyel'>기다림</b>, <sub>주님의 뜻을 기다리며</sub>
 					</h2>
 					
@@ -516,7 +433,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c15'  data-bg='./write.jpg'>
+				<div class='maincard clearfix' id='c15'  data-bg='./write.jpg'>
 					<h2><b class='colyel'>한 줄 기도문</b>, <sub>마음과 생각을 분별하며</sub>
 					</h2>
 					
@@ -542,7 +459,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c16'  data-bg='./05mountain.jpg'>
+				<div class='maincard clearfix' id='c16'  data-bg='./05mountain.jpg'>
 					
 					<h2><b class='colyel'>감사</b>, <sub>간구를 들으신 주님께 </sub>
 					</h2>
@@ -588,7 +505,7 @@
 					
 					
 				</div>
-				<div class='maincard' id='c17'  data-bg='./05flower2.jpg'>
+				<div class='maincard clearfix' id='c17'  data-bg='./05flower2.jpg'>
 					<h2><b class='colyel'>파송</b>, <sub>세상을 향하여 </sub>
 					</h2>
 					
@@ -612,455 +529,7 @@
 			</div> <!-- END OF ROW -->
 		</div>
 		
-		<script>
-			//('#c15').find("input[type='text']").eq(0).val("ddd")
-			String.prototype.replaceAll = function(org, dest) {
-			return this.split(org).join(dest);
-			}
-			
-			
-			var nowobj={};
-			var kill_media="";
-			var start_card='c1';
-			var nowobj2='1';
-			var delaytime=2;
-			
-			//ar audio = new Audio('http://media5.dimode.co.kr/ssch/piano.mp3');
-			var oldVal="";
-			var imsiimg="";
-			var nowtime=Date.now();
-			
-			var bg_bright=50;
-			
-			var byline_intval=1500; 
-			
-			var check_result="|";
-			var bricknumber=1;
-			function isMobile() {
-			return navigator.userAgent.indexOf('Mobi') > -1;
-			}
-			String.prototype.replaceAll = function(org, dest) {
-			return this.split(org).join(dest);
-			}
-			
-			function getParameterByName(name) {
-			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-			results = regex.exec(location.search);
-			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-			}
-			
-			$(document).ready(function(){
-			
-			
-			var churchname = getParameterByName('church');
-			
-			$('.churchname').text(churchname);
-			
-			aup.loop=true;
-			aup.volume=0.35;
-			
-			$('.maincard').css('display','none');
-			$('.maincard').eq(0).show('slow');
-			//$('h4').eq(0).html($('h4').eq(0).html().replaceAll("[","[").replaceAll("]","</b>"))
-			
-			
-			
-			
-			
-			for(var i=0;i<$('h2').length;i++) { $('h2').eq(i).html($('h2').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }
-			for(var i=0;i<$('h3').length;i++) { $('h3').eq(i).html($('h3').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }    
-			for(var i=0;i<$('h4').length;i++) { $('h4').eq(i).html($('h4').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
-			for(var i=0;i<$('h5').length;i++) { $('h5').eq(i).html($('h5').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
-			
-			
-			for(var i=0;i<$('.maincard').length;i++) { $('.maincard').eq(i).html($('.maincard').eq(i).html().replaceAll("===","<hr>").replaceAll("---","<hr class='sm'>")); }		
-			
-			
-			
-			
-			//$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
-			/*
-			if(document.location.href.includes("?all")) { // ---------------------------- 모두보기일때 
-			
-			
-			$('.maincard').each(function(index,item) {
-			
-			
-			$(this).prepend("<h3><a href='./?page="+(index+1)+"' class='btn btn-block btn-sm btn-info'>"+(index+1)+"페이지</a> </h3>"); 
-			
-			
-			//$(this).find("h2").html()
-			if($(item).data('bg')!==undefined) imsiimg=$(item).data('bg');
-			
-			$(item).css('background-image'," url('../"+imsiimg+".jpg')");
-			});
-			$('.maincard').css("background-size","cover");
-			$('.maincard').css("background-position","center center");
-			$('.maincard').css("background-repeat","no-repeat");
-			$('.maincard').css('margin-bottom','20px');
-			$('body').css("background-image","none");
-			
-			$('body').css("background-color","#ff0000");
-			
-			} //----------------------------------------------------------------------------
-			*/
-			//start
-			
-			if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
-			$('#'+start_card).show('slow'); 
-			$('#'+start_card).find(".byline").each(function (index) {
-			
-			
-			setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-			
-			/*if (navigator.userAgent.indexOf('Tri') >0) { 
-			
-			$(this).removeClass('byline').show();
-			
-			} else {
-			
-			setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-			}
-			*/
-			});
-			
-			
-			/*추가된 부분: 종료되면 처음부터 다시 재생*/
-			/*
-			aup.addEventListener('ended', function() { 
-			this.currentTime = 0;
-			this.play();
-			console.log('replay');
-			}, false);
-			*/
-			if(!isMobile()) {
-			
-			
-			//	$('#btn_1').html("<b>엔터키</b>나 <b>스페이스키</b>를 누르시면 다음으로 넘어갑니다.");  
-			$('#main_fr').addClass('h-100');
-			//$('#main_fr').css('padding-top','180px')
-			//$('#main_fr').removeClass('align-items-center ');
-			} else {
-			
-			$('#main_fr').removeClass('align-items-center ');
-			$('#main_fr').css('padding-top','30px')
-		}
-		if(navigator.userAgent.indexOf('KAKAO')>0) {
-			$('#btn_end').prop('href',"kakaoweb://closeBrowser");
-			} else {
-			$('#btn_end').detach();
-			
-			
-		}
-		
-		for(i=0;i<$('.maincard').length;i++) {  // 이미지 프리로딩
-					
-					var img = new Image(); 
-					if($('.maincard').eq(i).data('bg')!==undefined) img.src = $('.maincard').eq(i).data('bg');
-				 
-				}
-		$(document).keyup(function(event){
-			var keycode = (event.keyCode ? event.keyCode : event.which);
-			if(keycode == '13' ||keycode == '32') { 
-				
-				//if((document.activeElement+"").indexOf("ip") !== -1) {
-				
-				var nowfocusid=$(':focus').prop('id');
-				if(nowfocusid=='ip_confess') return;
-				if(nowfocusid=='ip_name') return;
-				if(nowfocusid=='ip_phone') return;
-				
-				$('#c'+nowobj2+'>button').click();
-				
-			}
-			
-		});
-		
-		
-		function show_nav_pagenum() {
-			
-			$('#p_nav').text((nowobj2-0)+1);
-		}
-		
-		$(".sendbtn").click(function(){
-			
-			if($('#ip_confess').val()!=="") {
-				
-				
-				$.ajax({
-					url: "//ministry.ssch.net/prayer/dataqr.php?indata="+encodeURI($('#ip_confess').val())+encodeURI("|온라인기도실"),
-					dataType: 'jsonp',
-					type:"GET",
-					success: function(data) {
-						
-						
-					}
-				});	
-				
-				
-				
-			}
-			
-		});
-		
-		$("#btn_brick").click(function(){
-			
-			validation_by_server();
-			
-		});
-		
-		
-		$("#btn_end").click(function(){
-			self.opener=self;
-			self.close();
-			window.close();
-			window.open('','_self').close();  
-			
-			$(".maincard:last-child").fadeOut('slow',function() { 
-				document.getElementById('aup').volume=0
-				self.opener=self;
-				self.close();
-				window.close();
-				window.open('','_self').close();  
-				
-				if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
-				// alert(navigator.userAgent);
-				
-			});
-		});
-		
-		
-		$(".btn_next").click(function(){
-			show_nav_pagenum();
-			
-			
-			nowobj=$("#c"+($(this).prop('id').split("_")[1]-0+1));
-			nowobj2=$(this).prop('id').split("_")[1]-0+1;
-			
-			kill_media=$(this).data('kill');
-			
-			
-			
-			$("#c"+$(this).prop('id').split("_")[1]).fadeOut(1200,function() { 
-				
-				if(kill_media!==undefined) $(kill_media).detach();
-				
-				
-				
-				if($('.maincard').eq(nowobj2-1).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
-					chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
-					
-				}
-				
-				
-				if(nowobj2==3) openFullScreenMode();
-				
-				
-				
-				nowobj.fadeIn(1200,function() {
-					$("#c"+nowobj2+">input[type='text']").eq(0).focus();
-					if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
-					
-					nowobj.find(".byline").each(function (index) {
-						
-						if (navigator.userAgent.indexOf('Tri') >0) { 
-							
-							$(this).removeClass('byline');
-							
-							} else {
-							
-							//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-							setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-							
-						}
-						
-					});
-					//	setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); })
-					
-					if((nowobj2-0)==$(".maincard").length) last_fadeout();
-					
-					
-				});
-			});
-			
-			
-			
-		});
-		
-		
-	});
-	function validation_by_server() {
-		$('#ip_name').val($('#ip_name').val().replaceAll(" ",""));
-		
-		if($('#ip_phone').val().length>0&&$('#ip_phone').val().length<4) return;
-		
-		
-		if($('#ip_name').val()==""&&$('#ip_phone').val()=="") {
-			
-			$("#c16").fadeOut('slow',function() { 
-				chage_background_img($('.maincard').eq(16).data('bg')) ;
-				
-				$("#c17").fadeIn('slow',function() {
-					
-					
-					
-					
-					}).find(".byline").each(function (index) {
-					
-					if (navigator.userAgent.indexOf('Tri') >0) { 
-						$(this).removeClass('byline');
-						} else {
-						
-						//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
-						setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-						
-					}
-				});
-				
-			});
-			
-			return;
-		}
-		
-		
-		if($('#ip_name').val()!==""&&$('#ip_phone').val()=="") {
-			
-			$('#alert_phone').show('slow');
-			setTimeout("$('#alert_phone').hide('slow')",5000);
-			return;
-			
-		}
-		
-		
-		
-		$.ajax({
-			url: "//ministry.ssch.net/prayer/check.php?indata="+encodeURI($('#ip_name').val().replaceAll(" ","")+$('#ip_phone').val().replaceAll(" ","")),
-			dataType: 'json',
-			type:"GET",
-			success: function(data) {
-				if(data.r=="y") {
-					
-					
-					check_result="|";   //성공하면
-					
-					} else {
-					check_result="|타교인 또는 전화번호 오류";   //성공하면
-					
-				}
-				send_data();
-				
-				
-				$("#c16").fadeOut('slow',function() { 
-					chage_background_img($('.maincard').eq(16).data('bg')) ;
-					
-					$("#c17").fadeIn('slow',function() {
-						
-						nowobj2=17;
-						
-						}).find(".byline").each(function (index) {
-						//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-						if (navigator.userAgent.indexOf('Tri') >0) { 
-							$(this).removeClass('byline');
-							} else {
-							
-							//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
-							setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-						}
-						
-					}); 
-					
-				});
-				
-				
-			}}); 
-			
-	}
-	
-	
-	
-	
-	function send_data() {
-		bricknumber=1;
-		
-		if($('#ip_name').val().trim()=="") bricknumber=0;
-		
-		
-		$.ajax({
-			url: "//ministry.ssch.net/prayer/dataqr_db.php?oneline_ori="+encodeURI($('#ip_confess').val())+"&bricknum="+bricknumber+"&pname="+encodeURI($('#ip_name').val().replaceAll(" ",""))+"&pnum="+$('#ip_phone').val().replaceAll(" ","")+"&notice="+encodeURI(check_result),
-			dataType: 'jsonp',
-			type:"GET",
-			success: function(data) {
-				
-				
-			}
-		});	
-		
-		
-		
-	}
-	
-	
-	function chage_background_img(img_name) {
-		
-		if(navigator.userAgent.indexOf('Tri')) {
-			
-			$('body').css('background-image',"url("+img_name+")");
-			
-			} else {
-			$('body').css('background-image',"url('"+img_name+"')");
-			
-		}
-		
-		
-		
-		
-	}
-	
-	
-	
-	// 전체화면 설정
-	function openFullScreenMode() {
-		var docV = document.documentElement;
-		if (docV.requestFullscreen) 
-		docV.requestFullscreen();
-		else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
-		docV.webkitRequestFullscreen();
-		else if (docV.mozRequestFullScreen) // Firefox
-		docV.mozRequestFullScreen();
-		else if (docV.msRequestFullscreen) // IE or Edge
-		docV.msRequestFullscreen();
-	}
-	
-	// 전체화면 해제
-	function closeFullScreenMode() {
-		
-	}
-	
-	function last_fadeout() {
-		delaytime=15;
-		
-		setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
-		setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
-		setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
-		setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
-		setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
-		setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
-		setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
-		setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
-		
-		setTimeout("aup.pause();",(delaytime+3)*1000);
-		
-		aup.loop=false;
-		
-		setTimeout("location.href = 'http://ssch.net'",(delaytime+15)*1000);
-		setTimeout("aup.pause();"(delaytime+3)*1000);
-		
-		
-	}
-	
-	
-</script>
+		<script src='https://wessch.cafe24.com/us/room3.js'></script>
 
 </body>
 </html>
