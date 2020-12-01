@@ -87,7 +87,7 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
 - 배포 전에 반드시 내용을 확인하시기 바랍니다. 혹시 개교회에 맞지 않는 기도제목이 있을 수도 있습니다. 
 
 - 입력방법 안내 (아래 링크의 PDF를 참조하시기 바랍니다.)
-https://pgsixt.github.io/201201online_prayer_doc
+https://pgsixt.github.io/201201online_prayer_doc.pdf
 
 
 
