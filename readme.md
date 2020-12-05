@@ -228,7 +228,7 @@ https://worship.ichungeoram.com/
 
 ### 12주차 기도
 ![12주차](https://pgsixt.github.io/12/12.png)
-- 게시일: 2020. 12.
+- 게시일: 2020. 12. 6
 - 찬양:욥의 기도 (노래 나무엔, Hymnal 2앨범)  https://youtu.be/nP9m5TLChzg
 - 말씀: 욥기13:20-23, 42:2-4
 - 기도문: 토마스 아 켐피스, 이영복 역, "그리스도를 본받아" , 289쪽
