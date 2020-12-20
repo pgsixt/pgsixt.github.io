@@ -20,7 +20,7 @@
   (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
 
 
-##참고
+## 참고
 - 필그림 하우스 온라인 기도실
 - https://pilgrimonline.blogspot.com/
 
