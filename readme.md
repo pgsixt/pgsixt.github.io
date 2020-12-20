@@ -9,7 +9,7 @@
 - 일산예일교회 http://yeil153.org/index.php  
   (기본 기도실 이용)
 - 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
-  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
+  (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정) 
   https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
 - 동일교회 https://dongilch.github.io/201122/
   (포크 후 자체 내용으로 구성)
@@ -17,7 +17,7 @@
   (포크 후 자체 내용으로 구성)
  
 - 필라한인교회  (교회 채널 https://pf.kakao.com/_alAsC )
-  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
+  (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정 후 카톡으로 발송) 
 
 
 ### 참고
