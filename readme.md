@@ -1,5 +1,5 @@
 # 안내
-## 온라인기도실 활용 교회 (2020.11.27 현재)
+## 온라인기도실 활용 교회 (2020.12.20 현재)
 아래 목록은 교회 상황에 따라 변경될 수 있습니다.
 - 산성교회   http://ministry.ssch.net/prayer/room/
 - 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
@@ -16,6 +16,14 @@
 - 세상의 빛 염산교회 https://woosung3.github.io/
   (포크 후 자체 내용으로 구성)
  
+- 필라한인교회  (교회 채널 https://pf.kakao.com/_alAsC )
+  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
+
+
+##참고
+- 필그림 하우스 온라인 기도실
+- https://pilgrimonline.blogspot.com/
+
 
 ###  게시 일정
 #### 1차 구약의 기도 (2020년 11월까지)
