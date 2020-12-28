@@ -273,6 +273,17 @@ https://worship.ichungeoram.com/
 - 감사시: 시편 104:33
 - 배경음악: 연주 황은혜
 
+### 15주차 기도
+![14주차](https://pgsixt.github.io/15/15.png)
+- https://pgsixt.github.io/15/
+- 게시일: 2020. 12. 28
+- 찬양: 아버지여 구하오니
+  https://youtu.be/nLgtFgVeY30
+- 말씀: 요한복음17:9-14 
+- 기도문: The Sacramentary of Sarapion of Thmuis, 17-18. 
+- 감사시: 예레미야 20:13
+- 배경음악: 연주 황은혜
+
 ### 산성교회 온라인 기도실
 (한 주 먼저 게시됩니다.) http://ministry.ssch.net/prayer/room/
 
