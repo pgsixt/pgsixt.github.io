@@ -1,6 +1,6 @@
 # 안내
-## 온라인기도실 활용 교회 (2020.11.27 현재)
-아래 목록은 교회 상황에 따라 변경될 수 있습니다.
+## 온라인기도실 활용 교회 (2020.12.20 현재)
+아래 목록은 교회 상황에 따라 변경될 수 있습니다. 아래 목록을 참고하시면, 기도실 구성에 도움이 될 겁니다.
 - 산성교회   http://ministry.ssch.net/prayer/room/
 - 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
   (포크 후 자체 내용으로 구성)
@@ -9,13 +9,21 @@
 - 일산예일교회 http://yeil153.org/index.php  
   (기본 기도실 이용)
 - 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
-  (http://wessch.cafe24.com/maker/ 에서 슬라이스 수정) 
+  (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정) 
   https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
 - 동일교회 https://dongilch.github.io/201122/
   (포크 후 자체 내용으로 구성)
 - 세상의 빛 염산교회 https://woosung3.github.io/
   (포크 후 자체 내용으로 구성)
  
+- 필라한인교회  (교회 채널 https://pf.kakao.com/_alAsC )
+  (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정 후 카톡으로 발송) 
+
+
+### 참고
+- 필그림 하우스 온라인 기도실
+- https://pilgrimonline.blogspot.com/
+
 
 ###  게시 일정
 #### 1차 구약의 기도 (2020년 11월까지)
@@ -155,6 +163,7 @@ https://worship.ichungeoram.com/
 
 ### 4주차 기도
 ![4주차](https://pgsixt.github.io/4/04.png)
+- https://pgsixt.github.io/4/
 - 게시일: 2020. 10. 4
 - 찬양: 내맘의 주여 소망되소서, (노래 한웅재) https://youtu.be/tW4OsnYD95U
 - 말씀: 역대상 17장 20절, 25-27절 (다윗의 기도)
@@ -165,6 +174,7 @@ https://worship.ichungeoram.com/
 
 ### 5주차 기도
 ![5주차](https://pgsixt.github.io/5/05.png)
+- https://pgsixt.github.io/5/
 - 게시일: 2020. 10.11
 - 찬양: 주의 임재 앞에 잠잠해 (노래 Faith Worship) https://youtu.be/odEFLiAw3nM
 - 말씀: 역대하 6장 19절-21절 (솔로몬의 기도)
@@ -174,6 +184,7 @@ https://worship.ichungeoram.com/
 
 ### 6주차 기도 
 ![6주차](https://pgsixt.github.io/6/06.png)
+- https://pgsixt.github.io/6/
 - 게시일: 2020. 10. 19
 - 찬양: 너 예수께 조용히 나가 (노래 한웅재) https://youtu.be/GmgoR8nRt6g
 - 말씀: 열왕기상 18장 42-44절 (이사야의 기도)
@@ -183,6 +194,7 @@ https://worship.ichungeoram.com/
 
 ### 7주차 기도
 ![7주차](https://pgsixt.github.io/7/07.png)
+- https://pgsixt.github.io/7/
 - 게시일: 2020. 10. 25
 - 찬양: 내니 두려워 말라 (노래 김상진) https://youtu.be/jU9N7Skw_b4
 - 말씀: 열왕기하 19:14-15, 역대하32:7-8 (히스기야의 기도)
@@ -192,6 +204,7 @@ https://worship.ichungeoram.com/
 
 ### 8주차 기도
 ![8주차](https://pgsixt.github.io/8/08.png)
+- https://pgsixt.github.io/8/
 - 게시일: 2020. 10. 31
 - 찬양: 내맘이 낙심되며 (노래 나무엔) https://youtu.be/XeqO7ZYDGuk
 - 말씀: 예레미야 32:17, 25, 40-41 (예레미야의 기도)
@@ -201,6 +214,7 @@ https://worship.ichungeoram.com/
 
 ### 9주차 기도
 ![9주차](https://pgsixt.github.io/9/09.png)
+- https://pgsixt.github.io/9/
 - 게시일: 2020. 11. 8
 - 찬양:감사해 (노래 강찬, 피아노 김유신)  https://youtu.be/XdCShcYUhLo
 - 말씀: 다니엘서 6:4, 10, 27-28
@@ -210,6 +224,7 @@ https://worship.ichungeoram.com/
 
 ### 10주차 기도
 ![10주차](https://pgsixt.github.io/10/10.png)
+- https://pgsixt.github.io/10/
 - 게시일: 2020. 11. 15
 - 찬양:주님 말씀하시면 (노래 김상진)  https://youtu.be/1MUNTxfOjBk
 - 말씀: 에스더4:13-16
@@ -219,6 +234,7 @@ https://worship.ichungeoram.com/
 
 ### 11주차 기도
 ![11주차](https://pgsixt.github.io/11/11.png)
+- https://pgsixt.github.io/11/
 - 게시일: 2020. 11. 27
 - 찬양:우리 함께 기도해 (노래 찬미, 2020 New 트리니티 어쿠스틱워십 4집)  https://youtu.be/v-fPHJLMhEo
 - 말씀: 느헤미야1:5-6,9,11
@@ -228,6 +244,7 @@ https://worship.ichungeoram.com/
 
 ### 12주차 기도
 ![12주차](https://pgsixt.github.io/12/12.png)
+- https://pgsixt.github.io/12/
 - 게시일: 2020. 12. 6
 - 찬양:욥의 기도 (노래 나무엔, Hymnal 2앨범)  https://youtu.be/nP9m5TLChzg
 - 말씀: 욥기13:20-23, 42:2-4
@@ -237,11 +254,34 @@ https://worship.ichungeoram.com/
 
 ### 13주차 기도
 ![13주차](https://pgsixt.github.io/13/13.png)
+- https://pgsixt.github.io/13/
 - 게시일: 2020. 12. 12
 - 찬양: 당신은 영광의 왕 (페이스워십)  https://youtu.be/mQKsAW18RuA
 - 말씀: 요한복음17:1-5
 - 기도문: 로렌스 형제, "세기의 기도" (이현주 역), 84쪽
 - 감사시: 시편 66:2
+- 배경음악: 연주 황은혜
+
+### 14주차 기도
+![14주차](https://pgsixt.github.io/14/14.png)
+- https://pgsixt.github.io/14/
+- 게시일: 2020. 12. 20
+- 찬양: 사랑하는 나의 아버지 (노래 김상진)
+  https://youtu.be/QKDR0J2Buzc
+- 말씀: 요한복음 17:6-8
+- 기도문: 장 칼뱅, "세기의 기도" (이현주 역), 290-291쪽
+- 감사시: 시편 104:33
+- 배경음악: 연주 황은혜
+
+### 15주차 기도
+![14주차](https://pgsixt.github.io/15/15.png)
+- https://pgsixt.github.io/15/
+- 게시일: 2020. 12. 28
+- 찬양: 아버지여 구하오니
+  https://youtu.be/nLgtFgVeY30
+- 말씀: 요한복음17:9-14 
+- 기도문: The Sacramentary of Sarapion of Thmuis, 17-18. 
+- 감사시: 예레미야 20:13
 - 배경음악: 연주 황은혜
 
 ### 산성교회 온라인 기도실
