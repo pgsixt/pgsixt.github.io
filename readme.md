@@ -1,7 +1,8 @@
 # 안내
-## 온라인기도실 활용 교회 (2020.12.20 현재)
+## 온라인기도실 활용 교회 
+### 2020년 활용교회
 아래 목록은 교회 상황에 따라 변경될 수 있습니다. 아래 목록을 참고하시면, 기도실 구성에 도움이 될 겁니다.
-- 산성교회   http://ministry.ssch.net/prayer/room/
+- 산성교회   http://ministry.ssch.net/prayer/room/ 
 - 면목교회   http://mmchurch.kr/ https://mmchurch1.github.io/
 - 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html   (119기도)
  - 일산예일교회 http://yeil153.org/index.php    (기본 기도실 이용)
@@ -15,7 +16,7 @@
   (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정 후 카톡으로 발송) 
 
 
-## 2021년 활용교회 (2021. 07. 17)
+### 2021년 활용교회 (2021. 07. 17)
 - 군포교회 https://gunpoch.github.io/ 
 - 행신임마누엘교회  http://www.immanuelch.co.kr/    
 - 목민교회 http://www.mokmin.or.kr/
@@ -25,7 +26,7 @@
 - 가장제일교회 http://www.gj1st.org/     https://gj1st.github.io  (금요기도회로 활용)
 
 
-
+ 
 
 ### 기타
 - 필그림 하우스 온라인 기도실  https://pilgrimonline.blogspot.com/
