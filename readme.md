@@ -2,32 +2,33 @@
 ## 온라인기도실 활용 교회 (2020.12.20 현재)
 아래 목록은 교회 상황에 따라 변경될 수 있습니다. 아래 목록을 참고하시면, 기도실 구성에 도움이 될 겁니다.
 - 산성교회   http://ministry.ssch.net/prayer/room/
-- 면목교회   http://mmchurch.kr/xe/praise02  https://mmchurch1.github.io/
-  (포크 후 자체 내용으로 구성)
-- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html
-  (포크 후 자체 내용으로 구성)
-- 일산예일교회 http://yeil153.org/index.php  
-  (기본 기도실 이용)
+- 면목교회   http://mmchurch.kr/ https://mmchurch1.github.io/
+- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html   (119기도)
+ - 일산예일교회 http://yeil153.org/index.php    (기본 기도실 이용)
 - 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
-  (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정) 
   https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
 - 동일교회 https://dongilch.github.io/201122/
   (포크 후 자체 내용으로 구성)
 - 세상의 빛 염산교회 https://woosung3.github.io/
   (포크 후 자체 내용으로 구성)
- 
-- 필라한인교회  (교회 채널 https://pf.kakao.com/_alAsC )
+ - 필라한인교회  (교회 채널 https://pf.kakao.com/_alAsC )
   (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정 후 카톡으로 발송) 
 
 
-## 2021년 활용교회
-- 군포교회 https://gunpoch.github.io/
-- 행신임마누엘교회
-- 목민교회 
+## 2021년 활용교회 (2021. 07. 17)
+- 군포교회 https://gunpoch.github.io/ 
+- 행신임마누엘교회  http://www.immanuelch.co.kr/    
+- 목민교회 http://www.mokmin.or.kr/
+- 시온성교회 http://zionc.kr/
+- 문화교회  http://www.moonhwa.org/
+- 울산강남교회 http://www.gangnamch.org/
+- 가장제일교회 http://www.gj1st.org/     https://gj1st.github.io  (금요기도회로 활용)
 
-### 참고
-- 필그림 하우스 온라인 기도실
-- https://pilgrimonline.blogspot.com/
+
+
+
+### 기타
+- 필그림 하우스 온라인 기도실  https://pilgrimonline.blogspot.com/
 
 
 ###  게시 일정
@@ -40,16 +41,18 @@
 - 13주차 영화롭게 하옵소서 (요17:1-5) 
 - 14주차 내게 주신 사람들 (요17:6-8)
 - 15주차 그들로 하나가 되게 (요17:9-14)
-- 17주차 진리로 거룩하게 (요17:15-19)
-- 18주차 세상이 알게 하옵소서 (요17:20-26)
+- 16주차 진리로 거룩하게 (요17:15-19)
+- 17주차 세상이 알게 하옵소서 (요17:20-26)
 
 
 ## 이용방법
 
-아래 방법이 어려우시면, 아래 전화번호로 02-536-5891 (교회전화) 하시면 안내해 드립니다.
+- 아래 방법이 어려우시면, 아래 전화번호로 02-536-5891 (교회전화) 하시면 안내해 드립니다.
+- 3가지 방식으로 활용할 수 있습니다.
+- (1) 있는 그대로 활용 / 교회 이름 정도만 넣어 활용 (2) 한 장 정도 수정해서 사용 (3) 전체편집 (우리교회 컨텐츠와 기도로 채울 경우)
+ 
 
-
-
+ 
 ### 1. 메인 홈페이지에서 수정하기 (슬라이드 1장 수정)
 
 - 주소: http://wessch.cafe24.com/maker/
@@ -92,6 +95,7 @@
 -주소 https://pgsixt.github.io/all=1
 
 ### 3. 전체 수정하기 (모든 페이지 수정가능)
+#### 1. github 에서 수정하기
 github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정하시면 됩니다. 
 - github 가입후,  https://github.com/pgsixt/pgsixt.github.io 우상단의 [fork] 하기 클릭
 - 이후 settings 에서 자신이 가입한 아이디로 프로젝트 이름을 고치면 (rename)  새로운 홈페이지 주소가 생깁니다. 
@@ -103,6 +107,12 @@ github 가입후 이 프로젝트를 fork 하셔서 index.html 파일을 수정�
 
 - 입력방법 안내 (아래 링크의 PDF를 참조하시기 바랍니다.)
 https://pgsixt.github.io/201201online_prayer_doc.pdf
+
+
+#### 2. 전용 편집기에서 수정하기 (2021. 7. 17 추가)
+- 기도실을 직접 제작하고, 쉽게 편집할 수 있는 툴을 알려드립니다.
+- 여러개의 유튜브와 음악을 활용할 수 있고, 내용을 자유롭게 바꿀 수 있습니다.
+- 산성교회로 문의주시면  02-536-5891 (교회전화) 안내해 드립니다.
 
 
 
