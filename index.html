@@ -1,19 +1,22 @@
+
 <!doctype html>
 <html lang="ko">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="description" content="한국교회를 위한 온라인기도실">
+		<meta name="description" content="모든 교회를 위한 온라인기도실">
 		<meta name="author" content="온라인기도실">
 		<meta name="generator" content="온라인 기도실">
-		<meta property="og:url" content="https://pgsixt.github.io/3/" /> 
+		<!-- <meta property="og:url" content=" " />  -->
 		<meta property="og:type" content="website" /> 
-		<meta property="og:image" content="./03.png" />
+		<meta property="og:image" content="https://pgsixt.github.io/11/11.png" />
 		<meta property="og:title" content="온라인 기도실" />  
 		<meta property="og:description" content="어디에나 계신 주님과 지금 여기에" />
 		
 		<!-- CSS only -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://wessch.cafe24.com/us/prayer.css">
 		
 		<!-- JS, Popper.js, and jQuery -->
 		
@@ -25,459 +28,321 @@
 		
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-		<!-- <link rel="stylesheet" href='http://ministry.ssch.net/prayer/room.css'/> -->
-			
+ 		
 		<title>온라인 기도실</title>
+		 
 	</head>
 	<body>
-		<style>
-			<style>
-			.maincard {
-			display:none; 
-			}
-			 
-			h6 {
-			color:#ffffff;
-			
-			}
-			
-			html,body {
-			height: 100%;
-			}
-			
-			BODY {
-			min-height: 100%;
-			background-color: #000;
-			
-			background-position: center center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			}
-			
-			h2,h3, h4, h5,li {
-			color:#fff;
-			}
-			hr {
-			background-color: #aaa;
-			height: 2px; 
-			} 
-			
-			hr.sm {
-			background-color: #aaa;
-			height: 1px; 
-			} 
-			
-			li {
-			font-size:18px;
-			
-			}
-			btn_next {
-			font-weight:bold;
-			
-			}
-			
-			.oneline::placeholder {
-			color: #f5c842;
-			
-			} 
-			
-			.oneline {
-			
-			font-size: 24px;
-			color: #f5c842;
-			weight:bold;
-			border: none; 
-			background: transparent;
-			width:100%;
-			
-			}
-			.oneline:focus {
-			font-size: 24px;
-			color: #f5c842;
-			weight:bold;
-			border: none; 
-			background: transparent;
-			outline:none;
-			
-			}
-			
-			input[type="number"]::-webkit-outer-spin-button,
-			input[type="number"]::-webkit-inner-spin-button {
-			-webkit-appearance: none;
-			margin: 0;
-			}
-			.colyel{
-			color: #f5c842;
-			}
-			
-		</style>
-			
-		</style>
 		
 		
 		
 		
 		<div class="container-sm  justify-content-center  h-100" >   
 			<div class="row d-flex justify-content-center align-items-center " id='main_fr'>
-				<!-- <div class="fixed-bottom "><p class='text-white' id='p_nav'></p></div> -->
-				<audio  id='aup' src="./20200920_prayer_bgm.mp3" style='display:none' type="audio/mp3" ></audio> 
 				
-				
-				<div   id='c1' class='text-center maincard' data-bg="./darksky.jpg" >
-					
-					<img src="./fmkchurch.jpg" class="img-fluid" alt="Responsive image" style='width:80%' 'height 100'>
-					<hr>
-						<h4><b class='colyel churchname'>플라워마운드교회 </b>  온라인 기도실 </h4>
-					<h6 class='text-center'>야베스의 기도</h6>
-					<hr>
-					
-					<button type="submit" style="margin:8px; " class="btn btn-warning btn_next btn-block" name="button" id='btn_1' >시작하기</button>
-					
-					
-				</div>
-				
-				<div  id='c2' class='maincard'  >
-					<h2>온라인 [기도실] 안내</h2>
-					<hr>
-					<ul>
-						<li>온라인 기도실은 홀로 하나님께 나아가는 자리입니다.</li>
-						<li>30분 정도 여유를 갖고 하시길 바랍니다.</li>
-						<li>말씀과 묵상, 찬양과 기도로 함께 합니다.</li>
-						<li>배경 음악이 나올 수 있습니다. 볼륨을 조절하시기 바랍니다.</li>
-					</ul>
-					<br/>
-					<div class='byline'>
-						<h5 >	준비가 되셨으면, 아래의 버튼을 눌러주세요.						</h5>
-						
-						<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right " name="button" id='btn_2' >기도의 자리로</button>
-					</div>
-				</div>
-				
-				<div  id='c3' class='maincard' data-bg="./03_korea1.jpg" >
-					
-					<h2><b class='colyel'>찬양</b>, <sub>마음을 열며</sub>
-					</h2>
-					<hr>
-					<li>먼저 찬양의 가사를 천천히 읽어 봅시다.
-					</li>
-							<hr class='sm'>
-					
-					<h5>눈보라 치던 어느밤 어머니가 부르시던
-					</h5>
-					<h5>그 노래 나 지금도 잊지 않고 기억합니다
-					</h5>
-					<h5><b class='colyel'>예수는 나의 힘</b>이요 나지막이 부르시던
-					</h5>
-					<h5>어머니 그 노래가 다시 듣고 싶습니다
-					</h5>
-					<br/>
-					
-					<h5>세월 지나고 세상에 방황할 때 주저 앉아 울고 있을 때
-					</h5>
-					<h5>그때 그 노래 <b class='colyel'>어머니</b>가 부르던 그 노래 눈물이 되어서
-					</h5>
-					<br/>
-					<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_3' >계속</button>
-				</div>
-				
-				
-				<div  id='c4' class='maincard' >
-					
-					<h5>눈보라 치고 폭풍우가 닥쳐도 이제 나 두렵지 않음은
-					</h5>
-					<h5>예수가 나의 힘이 되어 주시고 나의 삶을 인도하시니
-					</h5>
-					<br/>
-					<h5><b class='colyel'>예수는 나의 힘</b>이시요 나의 능력이 되시는 주
-					</h5>
-					<h5>영원히 주님만 노래합니다 <br/>주님만 의지 하렵니다
-					</h5>
-					<h6 class='text-right'>-어머니 그 노래, (유연이 노래)
-					</h6>
-					<div class='embed-responsive embed-responsive-16by9'><iframe id='if1'  class='embed-responsive-item' src='https://www.youtube.com/embed/N1Y_jjrili8
-					'></iframe></div>
-					<hr class='sm'>
-					<button type="submit"   class="btn btn-warning btn_next float-right byline " name="button" id='btn_4' data-kill='#if1' onclick='aup.play();' >찬양을 듣고, 다음으로 넘어갑니다.</button>
-					
-				</div>	
-				
-				
-				<div  id='c5' class='maincard' data-bg='./03baby.jpg'>
-					
-					
-					<h2><b class='colyel'>말씀</b>, <sub>우리의 시선을 두고</sub>
-					</h2>
-					<hr>
-					<li>역대상 4장 9절과 10절 말씀입니다.
-					</li>
-					<li>음악이 나옵니다. 소리를 조절하시기 바랍니다.
-					</li>
-					<hr class='sm'>
-					
-					<h5> 야베스는 그의 형제보다 <b class='colyel'>귀중한 자<b/>라 </h5>
-					<br/>
-					<h5>그의 어머니가 이름하여 이르되 야베스라 하였으니 이는 내가 <b class='colyel'>수고</b>로이 낳았다 함이었더라
-					</h5>
-					<div class='byline'>
-						<h5> 야베스가 이스라엘 하나님께 아뢰어 이르되 
-						</h5>
-						<h5>주께서 내게 복을 주시려거든 나의 지역을 넓히시고 <b class='colyel'>주의 손으로</b> 나를 도우사 나로 <b class='colyel'>환난</b>을 벗어나 내게 근심이 없게 하옵소서 하였더니
-						</h5>
-						<br/>
-						<h5 class='text-right'>하나님이 그가 구하는 것을 <b class='colyel'>허락</b>하셨더라
-						</h5>
-						
-						<button type="submit"   class="btn btn-warning btn_next float-right byline " name="button" id='btn_5' >아멘</button>
-					</div>
-				</div>
-				
-				
-				<div   id='c6' class='maincard' data-bg='./03bird.jpg'>
-					
-					<h2><b class='colyel'>수고</b>, <sub>고통 중에 태어나다</sub>
-					</h2>
-					<hr>
-					<li>말씀을 새기며 기도합시다.
-					</li>
-					<li>가정의 아픔을 놓고 기도합시다.
-					</li>
-				<hr class='sm'>
-					<h5>야베스라는 이름의 뜻은 <b class='colyel'>'고통'</b>입니다. 그는 태어날 때부터 알수 없는 아픔과 고통으로 눌려 있었습니다.
-				
-					<h5>어느 가정이나 남에게 드러내지 못하는 이야기가 있습니다.
-					    무슨 일인지 <b class='colyel'>말할 수도 없어</b> 속으로 삭혀야 할 때도 있습니다.
-					    하나님께서 허락하신 가족이지만, 큰 아픔으로 가슴에 못을 막기도 합니다.
-					</h5>
-					
-					</br>	
-					
-					<h5>우리 가정의 <b class='colyel'>고통</b>을 하나님께 올려드립시다.
-					</h5>
-					
-					</br>	
-					
-					<h6><b class='colyel'>-내면의 아픔, 부부생활의 아픔, 자녀의 아픔, 부모님과의 아픔, 육체의 가시 등 </b>
-					</li></h6>
-					
-					<button type="submit"   class="btn btn-warning btn_next float-right byline " name="button" id='btn_6'>다음</button>
-					
-				</div>
-				
-				<div  id='c7' class='maincard'  data-bg='./03bird.jpg'>
-					
-					<h2><b class='colyel'>귀중한 자라</b>, <sub>그의 형제보다</sub>
-					</h2>
-					<hr>
-					<li>하나님께서 아픔을 축복으로 바꾸어 주시길 기도합시다.
-					</li>
-					<hr class='sm'>
-					<h5>야베스가 고통에 창조적으로 반응했기에 하나님은 그를 귀중한 자로 인생 역전시키셨습니다.
-					</h5>
-					<br/>
-					<h5><b class='colyel'>아직 아물지 않은 상처들</b>을 뛰어넘어 미래를 품고 꿈꾸며 기도합시다.
-					</h5>
-					<br/>
-					
-					<h6><b class='colyel'>-고통과 아픔을 싸메워주시고 인내하는 것을 배울 수 있도록 </b>
-					</li></h6>
-					<h6><b class='colyel'>-고난을 통해 성숙한 인격으로 다듬어져 주님께 쓰임받을 수 있도록 </b>
-					</li></h6>
-					<h6><b class='colyel'>-자신의 필요를 하나 하나 내어 놓고 기도하세요 </b>
-					</li></h6>
-					
-					<button type="submit"   class="btn btn-warning btn_next float-right byline" name="button" id='btn_7'>다음</button>
-					
-				</div>
+				<audio  id='aup' src="https://pgsixt.github.io/11/20201115_prayer_bgm.mp3" style='display:none' type="audio/mp3" ></audio> 
 				
 				
 				
+				<!--   maincard 단위로 슬라이드가 구분됩니다.     -->
 				
-				<div   id='c8' class='maincard' data-bg='./kid2.jpg'> 
-					<h2><b class='colyel'>나의 지역을 넓히시고</b>, <sub> 하나님께 아뢰어</sub>
-					</h2>
-					<hr>
-					<li>나의 삶의 영역을 넓혀주시길 기도합시다.
-					</li>
-					<hr class='sm'>
-					<h5>야베스는 하나님께 <b class='colyel'>지역을 넓혀주시길</b> 부르짖었습니다. 이것은 하나님을 위해서 더 큰 영향력을 미칠 수 있게 해달라는 요청입니다.
-					</h5>
-					<br/>
-					
-					<h6><b class='colyel'>-자녀들이 주님께 영광돌리는 삶을 살 수 있도록 앞길을 활짝 열어 주소서 </b>
-					</li></h6>
-					<h6><b class='colyel'>-직장과 사업의 터전에서 존귀한 자로 우뚝서게 하소서 </b>
-					</li></h6>
-					<h6><b class='colyel'>-더 많은 사람들을 섬길 수 있도록 능력, 건강, 물질을 부어 주옵소서 </b>
-					</li></h6>
-					
-					
-					
-					<br/>
-					
-					<button type="submit"   class="btn btn-warning btn_next float-right byline" name="button" id='btn_8'>지역을 넗혀 주소서</button>
-					
-				</div>
-				
-				<div   id='c9' class='maincard' data-bg='./03window.jpg' >
-					
-					
-					<h2><b class='colyel'>환난</b>을 벗어나, <sub> 내게 근심이 없게</sub>
-					</h2>
-					<hr>
-					<li>코로나로 인해 고통받는 이 땅을 위해 기도합니다.
-					</li>
-					<hr class='sm'>
-					<br/>
-					<h5>야베스는 환난에서 벗어날 수 있도록 하나님의 도우심을 간절히 구했습니다. 자신의 힘으로 할 수 없다는 것을 알았기 때문입니다.
-					</h5>
-					<br/>
-					<h5>지금 팬데믹 상황으로 고통 당하는 자들이 환난에서 벗어나도록 간절히 구합시다
-					</h5>
-					<h5>
-					</h5>
-				
-				    <h6><b class='colyel'><b class='colyel'>-미국에 팬데믹 상황의 분노로 인한 인종차별, 혐오가 사라지고 사랑으로 서로 품어주는 나라 되게 하소서</b></h6>
-					<h6><b class='colyel'>-플로리다 콘도 붕괴로 슬픔을 당한 사람들을 위로하여 주소서</b></h6>
-					<h6><b class='colyel'>-경제적으로 어려움을 겪고 있는 사업체들이 환란에서 벗어나도록 도와주소서</b></h6>
-					
-					
-					<button type="submit"   class="btn btn-warning btn_next float-right byline" name="button" id='btn_9'>환난을 벗어나게 하소서</button>
-				</div>
-				
-				<div  id='c10' class='maincard'  data-bg="./03help.jpg" >
-					
-					<h2><b class='colyel'>주의 손</b>으로</h2>
-					<hr>
-					<li>이 땅에 있는 교회들을 위해 기도합시다.</li>
-					<hr class='sm'>
-					<br/>
-					
-					<h5>고통의 순간에 세상은 묻습니다. 하나님은 <b class='colyel'>어디에</b> 계시냐고. <sub>(엘리 위젤, 유대인 작가)</sub>
-					</h5>
-					<br/>
-					
-					<h5>주님이 계셔야 할 <b class='colyel'>그곳에</b> 교회가 있게 하소서.
-					</h5>
-					<br/>
-					
-					<h5>비천한 자들을 일으키며, 아픈 곳을 어루만지는 주님의 손이 되게 하소서.
-					</h5>
-					
-					
-					<button type="submit"   class="btn btn-warning btn_next float-right" name="button" id='btn_10'>다음</button>
-					
-				</div>
-				
-				
-				<div  id='c11' class='maincard'>
-					
-					<h2><b class='colyel'>도움</b>,<sub>주님의 손으로 말미암는 은혜</sub>
-					</h2>
-					<hr>
-					<li><b class='colyel'>플라워마운드교회</b>를 위해 기도합시다.
-					</li>
-					<hr class='sm'>
-					<br/>
-					<h5> 질병으로, 코로나로 집에 갇혀 있는 이들이 있습니다.</h5>
-					<br/>
-					
-					<h5>경제적인 문제로, 정서적인 문제로 어려움을 겪는 이들도 있습니다.</h5>
-					<br/>
-					
-					<h6><b class='colyel'>-질병, 슬픔, 경제적 어려움 등 모든 문제에서 벗어나 하루 하루 살아가게 하소서</b></h6>
-					<h6><b class='colyel'>-영적 침체에서 벗어나 영적 부흥을 갈망하게 하소서</b></h6>
-					
-											
-					<br/>
-					<button type="submit"   class="btn btn-warning btn_next float-right" name="button" id='btn_11'>다음</button>
-					
-				</div>
-				
-				<div  id='c12' class='maincard' data-bg="./03desert1.jpg" >
-					
-					<h2><b class='colyel'>기도문</b>, <sub>모다니아의 형제</sub>
-					</h2>
-					<hr>
-					<li>믿음의 사람들의 기도문으로 함께 기도합시다. 아래 기도문을 소리내어 읽읍시다.
-					</li>
-						<hr class='sm'>
-					
-					<h5>주님, 당신은 나의 부족함을 아십니다.
-					</h5>
-					<h5>나를 강권하여 주시옵소서.
-					</h5>
-					<br/>
-					<h5>주님, 내가 원하든 원하지 않든지<br/> 나를 살려주십시오.
-					</h5>
-					<h5>나는 추잡하여 죄짓기를 갈망합니다.
-					</h5>
-					<h5>그러나 전능하신 하나님이시여,
-					</h5>
-					<br/>
-					<h5>내가 죄짓는 것을 막아 주십시오.
-					</h5>
-					<button type="submit"   class="btn btn-warning btn_next float-right byline" name="button" id='btn_12 '>다음</button>
-					
-				</div>
-				
-				<div  id='c13' class='maincard' data-bg="./03desert1.jpg">
-					
-					<h5>만약 당신께서 의인들만 동정하신다면 그것은 위대한 것이 아닙니다.</h4>
-					<h5>당신께서 순수한 사람을 구원하시는 것은 놀랍지 않습니다.</h4>
-					
-					<br/> 
-					<div class='byline'>
-						<h5>주님, 나는 당신의 자비를 받을 자격이 없지만	</h5>
-						<h5>나를 향해 당신의 놀라운 자비를 베풀어 주십시오.</h5>
-						<br/> 
-						<div class='byline'>
-							<h5>이로써 당신께서 사람을 사랑하시는 것을 보여주십시오. 
-							</h5>
-							
-							<h5 class='text-right'>-모다니아의 형제, "사막 교부들의 금언집" (남성현 역), 316쪽
-							</h5>
-							
-							<br/>
-							<div class='byline'>
-								<hr class='sm '>
-								<button type="submit"   class="btn btn-warning btn_next float-right" name="button" id='btn_13'>기도문을 읽었습니다.</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div  id='c14' class='maincard' data-bg='./lake_mountain.jpg'>
-					<h2><b class='colyel'>기다림</b>, <sub>주님의 뜻을 기다리며</sub>
-					</h2>
-					<hr>
-					<li>주님이 우리에게 주시는 마음이 있는지 살펴봅시다.
-					</li>
-					<li>억지로 생각을 짜내지 마시고, 차분히 침묵을 지킵니다.
-					</li>
-					<li>모든 생각이 주님의 것은 아닙니다. 떠오른 것 중에는 내 생각와 욕구, 할 일도 있습니다. 자연스러운 과정이니 괜찮습니다. 침묵에 머물러 주십시오.
-					</li>
-					<hr class='sm'>
-					<br/>
-					<h5 class='text-center'>말씀하옵소서. <b class='colyel'>주의 종</b>이 듣겠나이다
-					</h5>
-					<h6 class='text-center'>사무엘상 3장 10절
-					</h6>
-					<br/>
-					
-					<div class='byline'>
-						<h5 class="text-right">고요한 가운데 잠시 침묵하시기 바랍니다.</h5>
-						
-						<button type="submit"   class="btn btn-warning btn_next float-right" name="button" id='btn_14'>다음</button>
-					</div>
-				</div>
-				
-				<div  id='c15' class='maincard' data-bg="./write.jpg">
-					
-				
-				<h2><b class='colyel'>한 줄 기도문</b>, <sub>마음과 생각을 분별하며 </sub></h2>
-					<hr/>
+				<div class='maincard clearfix'  data-bg='https://pgsixt.github.io/11/cover1.jpg' data-desktop='https://pgsixt.github.io/11/crossroom4.jpg'><!-- 슬라이드1 -->
+                  <div class='text-center'> <img src="./fmkchurch.jpg" class="img-fluid" alt="Responsive image" style='width:80%' 'height 100'>
+                  </div>
+
+줄바꿈::
+===
+<h4><b class='colyel churchname'>플라워마운드교회 </b>  온라인 기도실 </h4>
+<h6 class='text-center'>느혜미야의 기도</h6>
 					
 
+---
+
+<button type="submit" style="margin:8px; " class="btn btn-warning btn_next btn-block" name="button" id='btn_1' >시작하기</button>
+
+</div>
+
+<div class='maincard clearfix' data-bg='https://pgsixt.github.io/11/carmountain.jpg'> <!-- 슬라이드2 -->
+
+제목::[기도,][[ 그 여정을 시작하며]]
+===
+설명*::이곳은 주님께 나아가는 자리입니다.
+설명*::30분 정도 여유를 갖고 하시길 바랍니다.
+설명*::말씀과 묵상, 찬양과 기도로 함께 합니다.
+설명*::하단의 버튼을 누르면 다음 기도제목으로 넘어갑니다.
+---
+줄바꿈::
+
+중간본문::[성령님]께서 우리의 기도를 인도해 주십니다. 도우심을 구하며 기도를 시작합니다.
+줄바꿈::
+오른쪽작은본문::준비가 되면, 아래의 [버튼]을 눌러주세요. 
+줄바꿈::
+다음버튼::기도로 나아가며
+
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1555356328-8877b765ee97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'> <!-- 슬라이드3 -->
+
+줄바꿈::
+
+제목::[찬양], [[마음을 열며]]
+===
+설명*::찬양의 가사를 천천히 읽어 봅시다.
+---
+가운데중간본문::우리 함께 기도해 
+가운데중간본문::주 앞에 나와 무릎 꿇고
+줄바꿈::
+가운데중간본문::긍휼 베푸시는 주 
+가운데중간본문::하늘을 향해 두손 들고
+줄바꿈::
+가운데중간본문::하늘 문이 열리고 
+가운데중간본문::은혜의 빗줄기
+줄바꿈::
+가운데중간본문::이 땅 가득 내리도록
+다음버튼::다음
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1555356328-8877b765ee97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'> <!-- 슬라이드4 -->
+
+줄바꿈::
+
+가운데큰본문::마침내 주 오셔서 의의 빗줄기
+줄바꿈::
+가운데큰본문::우리 위에 부으시도록
+줄바꿈::
+
+오른쪽작은본문::우리 함께 기도해 (노래 찬미)
+오른쪽작은본문:: 2020 New 트리니티 어쿠스틱워십 4집
+---
+유튜브::v-fPHJLMhEo
+줄바꿈::
+오른쪽작은본문::찬양을 듣고 다음을 누릅니다.
+<button type="submit"   class="btn btn-warning btn_next float-right" name="button" id='btn_4' data-kill='#if1' onclick='aup.play();' >다음</button>
+
+</div>
+
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1530625625693-b38b404cb1be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'> <!-- 슬라이드5 -->
+ 
+
+
+제목::[말씀], [[우리의 시선을 두고]]
+---
+설명*::말씀을 천천히 여러 번 읽습니다.
+---
+중간본문::5 이르되 하늘의 하나님
+중간본문::여호와 크고 두려우신 하나님이여 
+중간본문::주를 사랑하고 주의 계명을 지키는 자에게 
+중간본문::언약을 지키시며 [긍휼을 베푸시는 주여] 간구하나이다
+
+줄바꿈::
+중간본문::6 이제 종이 주의 종들인 
+중간본문::이스라엘 자손을 위하여 주야로 기도하오며
+중간본문:: 우리 이스라엘 자손이 주께 범죄한 [죄들을 자복하오니]
+중간본문:: 주는 귀를 기울이시며 눈을 여시사 종의 기도를 들으시옵소서 [[(하략)]]
+
+다음버튼::계속
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1530625625693-b38b404cb1be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'> <!-- 슬라이드6 -->
+ 
+
+제목::[말씀], [[우리의 시선을 두고]]
+===
+중간본문::9 만일 내게로 돌아와 내 계명을 지켜 행하면 너희 쫓긴 자가 하늘 끝에 있을지라도
+중간본문:: 내가 거기서부터 그들을 모아 내 이름을 두려고 택한 곳에 돌아오게 하리라 하신 말씀을 이제 청하건대 [기억하옵소서]
+줄바꿈::
+중간본문::11 주여 구하오니 귀를 기울이사 종의 기도와 주의 이름을 경외하기를 기뻐하는 [종들의 기도]를 들으시고 
+중간본문::오늘 종이 형통하여 이 사람들 앞에서 [은혜를 입게 하옵소서] 하였나니 그 때에 내가 왕의 술 관원이 되었느니라
+
+가운데작은본문::- 느헤미야1:5-6,9,11
+다음버튼::아멘
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1595232928465-856bef2ff8d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80' data-desktop='https://images.unsplash.com/photo-1578589591337-864142c03335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'> <!-- 슬라이드7 -->
+
+
+제목::[긍휼을] [[베푸시는 주여]]
+===
+설명*::말씀을 새기며 기도합니다.
+설명*::주님을 바로 아는 것이 기도의 시작입니다.
+---
+
+중간본문::느헤미야는 예루살렘 성벽이 아직도(약 150년 동안) 무너진채 귀향한 백성들이 고통당하고 있다는 소식을 듣고 수일 동안 [울고 슬퍼했습니다]. 
+
+줄바꿈::
+중간본문::그는 기도의 자리로 나아가며 기도를 들으시는 하나님이 [어떤 분이신지] 정확히 알고 있습니다. [긍휼을] 베푸시는 분이십니다. 
+
+줄바꿈::
+중간본문::기도한다면서도 주님을 알지 못한다면, 허공에 소리치는 것과 다름없습니다. 다음과 같이 기도합시다. 
+줄바꿈::
+<h5 class='prayer_text'></h5>
+가운데작은본문::[-긍휼을 베푸시는 주님, 주님을 더 알게 하소서. ]
+가운데작은본문::[-지난 날 하나님께서 나에게 긍휼을 베풀어 주셨던]
+가운데작은본문::[그때, 그 상황을 기억해 내세요.]
+가운데작은본문::[ 하나 하나 긍휼을 베푸신 하나님을 찬양하세요. ]
+
+다음버튼::다음
+
+</div>
+
+<div class='maincard clearfix'  data-bg='배경사진::https://images.unsplash.com/photo-1595232928465-856bef2ff8d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80' data-desktop='https://images.unsplash.com/photo-1578589591337-864142c03335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'> <!-- 슬라이드8 -->
+
+제목::[죄들을] [[자복하오니]]
+===
+설명*::말씀을 새기며 기도합니다.
+설명*::공동체(가정,나라와 민족)의 죄를 회개합시다.
+---
+중간본문:: 느헤미야는 이스라엘 자손들의 죄를 주님 앞에 자복합니다.
+줄바꿈::
+
+중간본문:: 가정의 [허물]을, 이 시대의 [아픔]을, 이 세대의 [죄악]을 감당하고자 할 때 주님께서 그 사람의 기도를 들으십니다.
+줄바꿈::
+중간본문:: 모든 것이 나의 책임인 것을 고백하며, 회개의 기도를 올려드립시다.
+줄바꿈::
+<h5 class='prayer_text'></h5>
+가운데작은본문::[-하나님을 멀리하고 욕심에 따라 물질만능주의로]
+가운데작은본문::[살아갔던 죄악을 용서하여 주소서. ]
+가운데작은본문::[-하나님의 진노를 사고 있는 소행에 대해]
+가운데작은본문::[회개하지 않는 고집을 용서하여 주소서.]
+
+
+다음버튼::다음
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1477295642034-731bf6bd37e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'> <!-- 슬라이드9 -->
+
+제목::[말씀을][[ 기억 하옵소서]]
+
+===
+설명*:: 주님의 약속은 기도의 근거입니다.
+---
+중간본문::느헤미야는 율법의 [말씀]을 근거로 하나님께 기도 드립니다.
+줄바꿈::
+중간본문::말씀은 약속이 되었고, [약속]은 기도의 근거가 되었습니다. 그의 기도는 말씀을 의지하는 기도였습니다.
+줄바꿈::
+<h5 class='prayer_text'></h5>
+가운데작은본문::[-나의 기도가 주님 말씀에 근거하게 하소서.]
+가운데작은본문::[-다음 약속의 말씀을 의지하여 기도하세요.]
+줄바꿈::
+가운데작은본문::"내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라"(빌 4:13)
+
+
+
+다음버튼::다음
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1477295642034-731bf6bd37e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'> <!-- 슬라이드10 -->
+
+제목::[종들의] [[기도를 들으시고]]
+===
+설명*:: 이 땅의 교회를 위하여 기도합시다.
+설명*::이름 모를 수많은 동역자들이 있습니다.
+---
+중간본문:: 느헤미야는 [홀로] 기도할 때도 그와 함께 기도하는 이들이 있음을 알았습니다. 기도의 [동역자]들이 있었습니다.
+줄바꿈::
+중간본문::우리가 이름을 모르는 수많은 이들이 주님 앞에 기도하고 있습니다. 그들도 주님의 종이며, 우리는 [함께] 기도하고 있습니다.
+줄바꿈::
+중간본문::믿음의 동역자들을 위해 기도합시다. 
+줄바꿈::
+<h5 class='prayer_text'></h5>
+가운데작은본문::[-내가 속한 가정목장이 서로 돌아보는 ]
+가운데작은본문::[공동체로 세워 주소서.]
+가운데작은본문::[-어려움을 겪는 많은 교회들이]
+가운데작은본문::[사랑안에서 하나되어 승리하게 하소서.]
+다음버튼::다음
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1579506769687-a19460c0b470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80'> <!-- 슬라이드11 -->
+
+ 
+제목::은혜를 [[입게 하옵소서]]
+===
+설명*::우리 <b class='colyel churchname'>플라워마운드교회</b>를 위해 기도합시다.
+---
+
+중간본문::느헤미야가 구한 형통과 은혜는 자신의 성공을 뜻하지 않습니다. 주님의 뜻을 이루기 위해 그는 은혜를 구하였습니다.
+
+
+줄바꿈::
+중간본문::경제적 어려움에 있는 성도들에게 느헤미야의 형통과 은혜를 허락하소서
+
+줄바꿈::
+중간본문::환우들과 고난 중에 있는 성도들에게 형통과 은혜를 허락하소서
+줄바꿈::
+
+중간본문::직장과 진로를 구하는 자녀들에게 형통과 은혜를 허락하소서
+줄바꿈::
+중간본문::평등법이 상원을 통과하지 못하도록 막아 주소서
+줄바꿈::
+다음버튼::다음
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1566698629409-787a68fc5724?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'> <!-- 슬라이드12 -->
+
+제목::[기도문], [[어거스틴]]
+===
+설명*::믿음의 사람들의 기도문을 소리내어 읽습니다.
+---
+중간본문::오 주님,
+줄바꿈::
+중간본문:: 내가 이 세상에서 어떠한 기쁨을 경험한다 할지라도 
+줄바꿈::
+중간본문::그것으로 인해 내가 참으로 행복하다는 생각을 갖지 말게 하소서.
+줄바꿈::
+중간본문::[*]주께 고백하는 주의 종인 나의 마음에서 
+중간본문::이런 생각을 멀리 떠나게 하소서.
+줄바꿈::
+
+
+다음버튼::계속
+
+</div>
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1566698629409-787a68fc5724?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'> <!-- 슬라이드13 -->
+
+줄바꿈::
+중간본문::불경건한 사람들에게 주시지 않고,
+줄바꿈::
+중간본문::주님만을 목적으로
+줄바꿈::
+중간본문:: 예배하는 자들에게 주십니다.
+줄바꿈::
+중간본문::그러기에 주님만이 우리의 기쁨이 되십니다.
+
+
+줄바꿈::
+오른쪽작은본문::"성 어거스틴의 고백록", 10권 22장
+---
+줄바꿈::
+
+작은본문::* 원문에는 [당신]으로 되어 있으나 여기서는 [주님]으로 읽습니다.
+줄바꿈::
+작은본문::[성 어거스틴]은 "고백록", "하나님의 도성" 등을 저술하였으며, 기독교 신학을 집대성하였습니다. 그는 말년에 전쟁에 두려움에 빠진 피난민들을 돌보다가 열병으로 생을 마감하였습니다.
+다음버튼::아멘
+
+</div>
+<div class='maincard clearfix'  data-bg='https://pgsixt.github.io/11/manstar10.jpg' data-desktop='https://images.unsplash.com/photo-1488866022504-f2584929ca5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1343&q=80'> <!-- 슬라이드14 -->
+
+
+제목::[기다림], [[주님의 뜻을 기다리며]]
+===
+설명*::주님이 우리에게 주시는 마음이 있는지 살펴봅시다.
+설명*::억지로 생각을 짜내지 않고, 침묵합니다.
+설명*::모든 생각이 주님의 것은 아닙니다. 떠오른 것 중에는 내 생각와 욕구, 할 일도 있습니다. 자연스러운 과정이니 괜찮습니다. 
+---
+
+가운데중간본문::말씀하옵소서.
+가운데큰본문:: [주의 종]이 듣겠나이다
+가운데작은본문::사무엘상 3장 10절
+줄바꿈::
+줄바꿈::
+가운데중간본문::고요한 가운데 잠시 침묵합니다.
+다음버튼::다음
+
+</div>
+<div class='maincard clearfix'  data-bg='https://pgsixt.github.io/11/write.jpg'> <!-- 슬라이드15 -->
+
+제목::[한 줄 기도문], [[마음을 분별하며]]
+===
 <li>기도 가운데 떠올린 생각이나 마음, 감사 제목이나 새롭게 드린 기도를 한 줄로 기록합니다.
 </li>
 
@@ -491,508 +356,61 @@ marginheight="0" marginwidth="0">로드 중…</iframe>
 					<br/>
 					<br/>
 					
-							
-					
-					
-				</div>
-				
-				
-			 
-				
-				<div  id='c16' class='maincard' data-bg="./03star.jpg">
-					
-					<h2><b class='colyel'>감사</b>, <sub>간구를 들으신 하나님께 </sub>
-					</h2>
-					<hr>
-					<li>오늘 기도를 인도하신 주님께 감사를 올려드립니다.
-					</li>
-					<li> 주님께서 야베스에게 응하신 것처럼, 우리의 구하는 것을 허락하십니다.
-					</li>
-					<li>아래의 구절을 읽고, 감사의 제목을 올려드립니다.
-					</li>
-					<hr class='sm'>
-					<br/>
-					<h5 class='text-center'>여호와의 인자하심과 인생에게 행하신 <b class='colyel'>기적</b>으로 말미암아 그를 찬송할지로다
-					</h5>
-					<br/>
-					<h5 class='text-center'>그가 사모하는 영혼에게 <b class='colyel'>만족</b>을 주시며 주린 영혼에게 좋은 것으로 채워주심이로다
-					</h5>
-					
-					
-					<br/>
-					<h6 class='text-center'>시편 107편 8절-9절 
-					</h6>
-					
-					<br/>
-					<br/>
-					<button type="submit"   class="btn btn-warning btn_next float-right" name="button" id='btn_16'  >주님, 감사합니다</button>
-				</div>
-				
-				
-				
-				
-				
-				<div  id='c17' class='maincard' data-bg="./03tunnel_ie.jpg">
-					<h2>[파송], <sub>세상을 향하여 </sub></h2>
-					===
-					<br/>
-					<div  class='byline'><h5>오늘의 온라인 기도는 마쳤습니다.</h5></div><br/>
-					<div  class='byline'><h5>주님께서 당신이 구하는 것을 [허락하셨고] </h5></div><br/>
-					<div  class='byline'><h5>오늘도 함께 하십니다.</h5></div>
-					<br/>
-					
-					<br/> 
-					<a  class="btn btn-warning  byline float-right btn-block"  id='btn_end' >한 걸음 내딛으며</a>
-					
-					
-					
-					
-				</div>
-				
-			</div>
-			
-		</div> <!-- END OF ROW -->
-	</div>
-	
-	<script>
-		//('#c15').find("input[type='text']").eq(0).val("ddd")
-		String.prototype.replaceAll = function(org, dest) {
-			return this.split(org).join(dest);
-		}
+
+</div>
+
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1504428081227-fa982aa38202?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80'  data-desktop='https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80'> <!-- 슬라이드16 -->
+제목::[감사], [[간구를 들으신 주님께 ]]
+===
+설명*::기도를 인도하신 주님께 감사를 올려드립니다.
+설명*:: 주님께서 느헤미야의 기도를 들으셨듯이 우리에게도 응답하십니다.
+설명*::아래의 구절을 읽고, 감사를 올려드립니다.
+---
+중간본문::우리가 종일 하나님을 자랑하였나이다
+줄바꿈::
+오른쪽중간본문::우리는 하나님의 이름에
+줄바꿈::
+줄바꿈::
+가운데큰본문::영원히 감사하리이다
+
+
+줄바꿈::
+가운데작은본문::시편 44편 8절
+줄바꿈::
+다음버튼::주님, 감사합니다
+
+</div>
+
+<div class='maincard clearfix'  data-bg='https://images.unsplash.com/photo-1421091242698-34f6ad7fc088?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2NjQxMn0'> <!-- 슬라이드17 -->
+
+제목::[파송], [[세상을 향하여 ]]
+===
+줄바꿈::
+줄바꿈::
+줄바꿈::
+줄바꿈::
+줄바꿈::
+줄바꿈::
+줄바꿈::
+줄바꿈::
+
+
+가운데중간본문::오늘의 온라인 기도는 마쳤습니다.
+줄바꿈::
+가운데중간본문::주님께서 함께 하십니다.
+줄바꿈::
+가운데중간본문::주님과 함께 세상으로 나아가시기 바랍니다.
+줄바꿈::
+
+줄바꿈::
+<a  class="btn btn-warning  float-right btn-block"  id='btn_end' >한 걸음 내딛으며</a>
+</div>
+
+</div> <!-- END OF ROW -->
+		</div>
 		
+		<script src='https://wessch.cafe24.com/us/room3.js'></script>
 		
-		var nowobj={};
-		var kill_media="";
-		var start_card='c1';
-		var nowobj2='1';
-		var delaytime=2;
-		
-		//ar audio = new Audio('http://media5.dimode.co.kr/ssch/piano.mp3');
-		var oldVal="";
-		var imsiimg="";
-		var nowtime=Date.now();
-		
-		var bg_bright=50;
-		
-		var byline_intval=1500; 
-		
-		var check_result="|";
-		var bricknumber=1;
-		function isMobile() {
-			return navigator.userAgent.indexOf('Mobi') > -1;
-		}
-		String.prototype.replaceAll = function(org, dest) {
-			return this.split(org).join(dest);
-		}
-		
-		
-		$(document).ready(function(){
-			
-			aup.loop=true;
-			aup.volume=0.35;
-			
-			$('.maincard').css('display','none');
-			$('.maincard').eq(0).show('slow');
-			//$('h4').eq(0).html($('h4').eq(0).html().replaceAll("[","[").replaceAll("]","</b>"))
-			
-			
-			
-			
-			
-			for(var i=0;i<$('h2').length;i++) { $('h2').eq(i).html($('h2').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }
-			for(var i=0;i<$('h3').length;i++) { $('h3').eq(i).html($('h3').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>")); }    
-			for(var i=0;i<$('h4').length;i++) { $('h4').eq(i).html($('h4').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
-			for(var i=0;i<$('h5').length;i++) { $('h5').eq(i).html($('h5').eq(i).html().replaceAll("[","<b class='colyel'>").replaceAll("]","</b>").replaceAll("\n","<br/>")); }
-			
-			
-			for(var i=0;i<$('.maincard').length;i++) { $('.maincard').eq(i).html($('.maincard').eq(i).html().replaceAll("===","<hr>").replaceAll("---","<hr class='sm'>")); }		
-			
-			for(i=0;i<$('.maincard').length;i++) {  // 이미지 프리로딩
-					
-					var img = new Image(); 
-					if($('.maincard').eq(i).data('bg')!==undefined) img.src = $('.maincard').eq(i).data('bg');
-				 
-				}
-			
-			
-			//$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
-			/*
-			if(document.location.href.includes("?all")) { // ---------------------------- 모두보기일때 
-				
-				
-				$('.maincard').each(function(index,item) {
-					
-					
-					$(this).prepend("<h3><a href='./?page="+(index+1)+"' class='btn btn-block btn-sm btn-info'>"+(index+1)+"페이지</a> </h3>"); 
-					
-					
-					//$(this).find("h2").html()
-					if($(item).data('bg')!==undefined) imsiimg=$(item).data('bg');
-					
-					$(item).css('background-image'," url('../"+imsiimg+".jpg')");
-				});
-				$('.maincard').css("background-size","cover");
-				$('.maincard').css("background-position","center center");
-				$('.maincard').css("background-repeat","no-repeat");
-				$('.maincard').css('margin-bottom','20px');
-				$('body').css("background-image","none");
-				
-				$('body').css("background-color","#ff0000");
-				
-			} //----------------------------------------------------------------------------
-			*/
-			//start
-			
-			if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
-			$('#'+start_card).show('slow'); 
-			$('#'+start_card).find(".byline").each(function (index) {
-				
-				
-				setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-				
-				/*if (navigator.userAgent.indexOf('Tri') >0) { 
-					
-					$(this).removeClass('byline').show();
-					
-					} else {
-					
-					setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-				}
-				*/
-			});
-			
-			
-			/*추가된 부분: 종료되면 처음부터 다시 재생*/
-			/*
-				aup.addEventListener('ended', function() { 
-				this.currentTime = 0;
-				this.play();
-				console.log('replay');
-				}, false);
-			*/
-			if(!isMobile()) {
-				
-				
-				//	$('#btn_1').html("<b>엔터키</b>나 <b>스페이스키</b>를 누르시면 다음으로 넘어갑니다.");  
-				$('#main_fr').addClass('h-100');
-				//$('#main_fr').css('padding-top','180px')
-				//$('#main_fr').removeClass('align-items-center ');
-				} else {
-				
-				$('#main_fr').removeClass('align-items-center ');
-				$('#main_fr').css('padding-top','30px')
-			}
-			if(navigator.userAgent.indexOf('KAKAO')>0) {
-				$('#btn_end').prop('href',"kakaoweb://closeBrowser");
-				} else {
-				$('#btn_end').detach();
-				
-				
-			}
-			
-			
-			$(document).keyup(function(event){
-				var keycode = (event.keyCode ? event.keyCode : event.which);
-				if(keycode == '13' ||keycode == '32') { 
-					
-					//if((document.activeElement+"").indexOf("ip") !== -1) {
-					
-					var nowfocusid=$(':focus').prop('id');
-					if(nowfocusid=='ip_confess') return;
-					if(nowfocusid=='ip_name') return;
-					if(nowfocusid=='ip_phone') return;
-					
-					$('#c'+nowobj2+'>button').click();
-					
-				}
-				
-			});
-			
-			
-			function show_nav_pagenum() {
-				
-				$('#p_nav').text((nowobj2-0)+1);
-			}
-			
-			$(".sendbtn").click(function(){
-				
-				if($('#ip_confess').val()!=="") {
-					
-					
-					$.ajax({
-						url: "//ministry.ssch.net/prayer/dataqr.php?indata="+encodeURI($('#ip_confess').val())+encodeURI("|온라인기도실"),
-						dataType: 'jsonp',
-						type:"GET",
-						success: function(data) {
-							
-							
-						}
-					});	
-					
-					
-					
-				}
-				
-			});
-			
-			$("#btn_brick").click(function(){
-				
-				validation_by_server();
-				
-			});
-			
-			
-			$("#btn_end").click(function(){
-				self.opener=self;
-				self.close();
-				window.close();
-				window.open('','_self').close();  
-				
-				$(".maincard:last-child").fadeOut('slow',function() { 
-					document.getElementById('aup').volume=0
-					self.opener=self;
-					self.close();
-					window.close();
-					window.open('','_self').close();  
-					
-					if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
-					// alert(navigator.userAgent);
-					
-				});
-			});
-			
-			
-			$(".btn_next").click(function(){
-				show_nav_pagenum();
-				
-				
-				nowobj=$("#c"+($(this).prop('id').split("_")[1]-0+1));
-				nowobj2=$(this).prop('id').split("_")[1]-0+1;
-				
-				kill_media=$(this).data('kill');
-				
-				
-				
-				$("#c"+$(this).prop('id').split("_")[1]).fadeOut(1200,function() { 
-					
-					if(kill_media!==undefined) $(kill_media).detach();
-					
-					
-					
-					if($('.maincard').eq(nowobj2-1).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
-						chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
-						
-					}
-					
-					
-					if(nowobj2==3) openFullScreenMode();
-					
-					
-					
-					nowobj.fadeIn(1200,function() {
-						$("#c"+nowobj2+">input[type='text']").eq(0).focus();
-						if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
-						
-						nowobj.find(".byline").each(function (index) {
-							
-							if (navigator.userAgent.indexOf('Tri') >0) { 
-								
-								$(this).removeClass('byline');
-								
-								} else {
-								
-								//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-								setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-								
-							}
-							
-						});
-						//	setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); })
-						
-						if((nowobj2-0)==$(".maincard").length) last_fadeout();
-						
-						
-					});
-				});
-				
-				
-				
-			});
-			
-			
-		});
-		function validation_by_server() {
-			$('#ip_name').val($('#ip_name').val().replaceAll(" ",""));
-			
-			if($('#ip_phone').val().length>0&&$('#ip_phone').val().length<4) return;
-			
-			
-			if($('#ip_name').val()==""&&$('#ip_phone').val()=="") {
-				
-				$("#c16").fadeOut('slow',function() { 
-					chage_background_img($('.maincard').eq(16).data('bg')) ;
-					
-					$("#c17").fadeIn('slow',function() {
-						
-						
-						
-						
-						}).find(".byline").each(function (index) {
-						
-						if (navigator.userAgent.indexOf('Tri') >0) { 
-							$(this).removeClass('byline');
-							} else {
-							
-							//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
-							setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-							
-						}
-					});
-					
-				});
-				
-				return;
-			}
-			
-			
-			if($('#ip_name').val()!==""&&$('#ip_phone').val()=="") {
-				
-				$('#alert_phone').show('slow');
-				setTimeout("$('#alert_phone').hide('slow')",5000);
-				return;
-				
-			}
-			
-			
-			
-			$.ajax({
-				url: "//ministry.ssch.net/prayer/check.php?indata="+encodeURI($('#ip_name').val().replaceAll(" ","")+$('#ip_phone').val().replaceAll(" ","")),
-				dataType: 'json',
-				type:"GET",
-				success: function(data) {
-					if(data.r=="y") {
-						
-						
-						check_result="|";   //성공하면
-						
-						} else {
-						check_result="|타교인 또는 전화번호 오류";   //성공하면
-						
-					}
-					send_data();
-					
-					
-					$("#c16").fadeOut('slow',function() { 
-						chage_background_img($('.maincard').eq(16).data('bg')) ;
-						
-						$("#c17").fadeIn('slow',function() {
-							
-							nowobj2=17;
-							
-							}).find(".byline").each(function (index) {
-							//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval); 
-							if (navigator.userAgent.indexOf('Tri') >0) { 
-								$(this).removeClass('byline');
-								} else {
-								
-								//setTimeout(() => $(this).removeClass('byline'),(index+1)*byline_intval);
-								setTimeout($(this).removeClass('byline'),(index+1)*byline_intval); 
-							}
-							
-						}); 
-						
-					});
-					
-					
-				}}); 
-				
-		}
-		
-		
-		
-		
-		function send_data() {
-			bricknumber=1;
-			
-			if($('#ip_name').val().trim()=="") bricknumber=0;
-			
-			
-			$.ajax({
-				url: "//ministry.ssch.net/prayer/dataqr_db.php?oneline_ori="+encodeURI($('#ip_confess').val())+"&bricknum="+bricknumber+"&pname="+encodeURI($('#ip_name').val().replaceAll(" ",""))+"&pnum="+$('#ip_phone').val().replaceAll(" ","")+"&notice="+encodeURI(check_result),
-				dataType: 'jsonp',
-				type:"GET",
-				success: function(data) {
-					
-					
-				}
-			});	
-			
-			
-			
-		}
-		
-		
-		function chage_background_img(img_name) {
-			
-			if(navigator.userAgent.indexOf('Tri')) {
-				
-				$('body').css('background-image',"url("+img_name+")");
-				
-				} else {
-				$('body').css('background-image',"url('"+img_name+"')");
-				
-			}
-			
-			
-			
-			
-		}
-		
-		
-		
-		// 전체화면 설정
-		function openFullScreenMode() {
-			var docV = document.documentElement;
-			if (docV.requestFullscreen) 
-			docV.requestFullscreen();
-			else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
-			docV.webkitRequestFullscreen();
-			else if (docV.mozRequestFullScreen) // Firefox
-			docV.mozRequestFullScreen();
-			else if (docV.msRequestFullscreen) // IE or Edge
-			docV.msRequestFullscreen();
-		}
-		
-		// 전체화면 해제
-		function closeFullScreenMode() {
-			
-		}
-		
-		function last_fadeout() {
-			delaytime=15;
-			
-			setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
-			setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
-			
-			setTimeout("aup.pause();",(delaytime+3)*1000);
-			
-			aup.loop=false;
-			
-			setTimeout("location.href = 'http://ssch.net'",(delaytime+15)*1000);
-			setTimeout("aup.pause();"(delaytime+3)*1000);
-			
-			
-		}
-		 
-		
-	</script>
-	
-</body>
+	</body>
 </html>
 
