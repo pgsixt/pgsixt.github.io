@@ -16,7 +16,7 @@
   (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정 후 카톡으로 발송) 
 
 
-### 2021년 활용교회 (2021. 07. 22)
+### 2021년 활용교회 (2021. 08월 현재)
 - 군포교회 https://gunpoch.github.io/ 
 - 행신임마누엘교회  http://www.immanuelch.co.kr/    https://hangsinimmanuel.github.io/hangsinimmanuel/20210721.html  
 - 목민교회 http://www.mokmin.or.kr/
@@ -25,7 +25,7 @@
 - 울산강남교회 http://www.gangnamch.org/
 - 가장제일교회 http://www.gj1st.org/     https://gj1st.github.io  (금요기도회로 활용)
 - 신양교회 https://morningcomechurch.github.io/morningcomechurch/1/   
-
+- 경신교회 http://www.gyungshin.or.kr/
 
 
 ### 기타
