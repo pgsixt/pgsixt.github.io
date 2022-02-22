@@ -16,7 +16,7 @@
   (http://wessch.cafe24.com/maker/ 에서 슬라이드 수정 후 카톡으로 발송) 
 
 
-### 2021년 활용교회 (2021. 08월 현재)
+### 2021년 활용교회  
 - 군포교회 https://gunpoch.github.io/ 
 - 행신임마누엘교회  http://www.immanuelch.co.kr/    https://hangsinimmanuel.github.io/hangsinimmanuel/20210721.html  
 - 목민교회 http://www.mokmin.or.kr/
@@ -26,8 +26,15 @@
 - 가장제일교회 http://www.gj1st.org/     https://gj1st.github.io  (금요기도회로 활용)
 - 신양교회 https://morningcomechurch.github.io/morningcomechurch/1/   
 - 경신교회 http://www.gyungshin.or.kr/
+- 부산성민교회 http://sungminch.com/
+
+#### 2022년 활용교회
+- 남광교회 http://namgwang.org/ http://ministry.ssch.net/us/room2021.html?room=1842
+- 묘동교회http://www.myodong-church.or.kr/main/main.html 빌립보서 50독 http://ministry.ssch.net/us/room2021.html?room=1785
+- 광명교회 http://kmchurch.kr/main/sub.html?pageCode=83
 
 
+- 
 ### 기타
 - 필그림 하우스 온라인 기도실  https://pilgrimonline.blogspot.com/
 
@@ -93,6 +100,11 @@ https://worship.ichungeoram.com/
 - 말씀: 김응신 목사님 주일 설교 시리즈 http://www.ssch.net/index.php?mid=board_kTTq23&category=25897
 - 음악: 마스터 믹싱 박경선 전도사 https://www.youtube.com/user/SunnyPark7045/channels
  
+ 
+### 참고 (온라인 기도실 묵상 방법)
+- 아래 영상은 부산성민교회에서 올린 온라인기도실 사용안내입니다. 이해하시는데 도움이 될 것 같아 올려놓습니다.
+https://www.youtube.com/watch?v=d5NhNs1VPCQ
+
  
  
 
