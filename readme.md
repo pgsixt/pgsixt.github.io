@@ -3,9 +3,9 @@
 ### 2020년 활용교회
 아래 목록은 교회 상황에 따라 변경될 수 있습니다. 아래 목록을 참고하시면, 기도실 구성에 도움이 될 겁니다.
 - 산성교회   http://ministry.ssch.net/prayer/room/ 
-- 면목교회   http://mmchurch.kr/ https://mmchurch1.github.io/
-- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html   (119기도)
- - 일산예일교회 http://yeil153.org/index.php    (기본 기도실 이용)
+- 면목교회   http://mmchurch.kr/ https://mmchurch1.github.io/  
+- 주안장로교회 https://lnh-dev.github.io/juanonlineprayerroom/index.html   (119기도, 2022.2 현재 운영중)
+- 일산예일교회 http://yeil153.org/index.php    (기본 기도실 이용)
 - 플라워마운드교회 (미국) http://www.fmkchurch.com/bbs/board.php?bo_table=0203&wr_id=336  **카카오채널로 발송**
   https://kdkim99.github.io   (포크 후 자체 내용으로 구성)
 - 동일교회 https://dongilch.github.io/201122/
@@ -26,15 +26,13 @@
 - 가장제일교회 http://www.gj1st.org/     https://gj1st.github.io  (금요기도회로 활용)
 - 신양교회 https://morningcomechurch.github.io/morningcomechurch/1/   
 - 경신교회 http://www.gyungshin.or.kr/
-- 부산성민교회 http://sungminch.com/
+- 부산성민교회 http://sungminch.com/  (성도 교육용 영상 온라인기도실 묵상 안내) https://www.youtube.com/watch?v=d5NhNs1VPCQ
 
-#### 2022년 활용교회
+### 2022년 활용교회
 - 남광교회 http://namgwang.org/ http://ministry.ssch.net/us/room2021.html?room=1842
 - 묘동교회http://www.myodong-church.or.kr/main/main.html 빌립보서 50독 http://ministry.ssch.net/us/room2021.html?room=1785
 - 광명교회 http://kmchurch.kr/main/sub.html?pageCode=83
-
-
-- 
+ 
 ### 기타
 - 필그림 하우스 온라인 기도실  https://pilgrimonline.blogspot.com/
 
@@ -80,9 +78,7 @@
 - 여러개의 유튜브와 음악을 활용할 수 있고, 내용을 자유롭게 바꿀 수 있습니다.
 - 편집기 신청 링크 https://forms.gle/FoyfNKkp4zYgbDGv8
 - 위의 링크로 신청하시면, 저희가 개발한 편집기를 이용해 자유롭게 작성할 수 있도록 안내해 드립니다. 
-- (교육을 받으실 경우, 크롬 브라우저 설치하시고 https://remotedesktop.google.com/support/  접속후 화면 공유를 할 수 있도록 준비하시기 바랍니ㅏㄷ)
-
-
+- (교육을 받으실 경우, 크롬 브라우저 설치하시고 https://remotedesktop.google.com/support/  접속후 화면 공유를 할 수 있도록 준비하시기 바랍니다)
 
 ## 개요
 
@@ -94,11 +90,12 @@
 청어람아카데미에서 진행하는 온라인 예배를 참고하여 제작하였습니다. 
 https://worship.ichungeoram.com/
 
-사진 자료는 주로 언스플래쉬   https://unsplash.com/   를 이용하였습니다.
+사진 자료는 주로 언스플래쉬  https://unsplash.com/   를 이용하였습니다.
 
 ### 3. 자료 출처 (공통)
 - 말씀: 김응신 목사님 주일 설교 시리즈 http://www.ssch.net/index.php?mid=board_kTTq23&category=25897
 - 음악: 마스터 믹싱 박경선 전도사 https://www.youtube.com/user/SunnyPark7045/channels
+ 
  
  
 ### 참고 (온라인 기도실 묵상 방법)
