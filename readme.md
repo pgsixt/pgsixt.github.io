@@ -32,7 +32,9 @@
 - 남광교회 http://namgwang.org/ http://ministry.ssch.net/us/room2021.html?room=1842
 - 묘동교회http://www.myodong-church.or.kr/main/main.html 빌립보서 50독 http://ministry.ssch.net/us/room2021.html?room=1785
 - 광명교회 http://kmchurch.kr/main/sub.html?pageCode=83
- 
+- 범천교회(고신)
+- The Bridge Church / Christian Reformed Church (미국)  http://thebridgecrc.org/
+
 ### 기타
 - 필그림 하우스 온라인 기도실  https://pilgrimonline.blogspot.com/
 
@@ -49,6 +51,15 @@
 - 15주차 그들로 하나가 되게 (요17:9-14)
 - 16주차 진리로 거룩하게 (요17:15-19)
 - 17주차 세상이 알게 하옵소서 (요17:20-26)
+
+#### 3차 2021년 사순절 묵상
+- 예수님의 생애 묵상을 40일간 이어갑니다.
+-  http://ministry.ssch.net/40days/
+
+#### 4차 2022년 사순절 묵상
+- 십자가에 버려야할 20가지, 가져야할 20가지를 살펴봅니다.
+- http://ministry.ssch.net/40days/2022.html
+- 3차와 4차는 이곳에 올라와 있지 않습니다. 그러나 요청시 보내드립니다.
 
 
 ## 이용방법
